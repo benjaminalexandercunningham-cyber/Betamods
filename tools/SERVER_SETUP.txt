@@ -1,0 +1,45 @@
+BETAMODS SERVER BUNDLE
+
+This zip holds every Betamods pack, unpacked, in the layout a Minecraft
+Bedrock Dedicated Server expects. It works from any device that can unzip a
+file and upload folders to the server (hosting-panel file manager, SFTP app,
+or the server machine itself).
+
+CONTENTS
+  behavior_packs/            one folder per behavior pack
+  resource_packs/            one folder per resource pack
+  world_behavior_packs.json  switches the behavior packs on for a world
+  world_resource_packs.json  switches the resource packs on for a world
+  with-permafrost/           the same two files, with the optional
+                             permafrost add-on switched on as well
+
+INSTALL OR UPDATE
+ 1. Stop the server and back up the world folder.
+ 2. In the server's behavior_packs/ and resource_packs/ folders, delete any
+    existing folders whose names start with "betamods-".
+ 3. Upload the folders inside this zip's behavior_packs/ into the server's
+    behavior_packs/, and the same for resource_packs/. Do not replace the
+    server's own vanilla folders.
+ 4. Upload world_behavior_packs.json and world_resource_packs.json into the
+    world folder: worlds/<level-name>/ (level-name is set in
+    server.properties). Replace the existing files. If the world uses other
+    packs too, merge the entries by hand instead and keep this order.
+ 5. To make players download the resource packs, set
+    texturepack-required=true in server.properties.
+ 6. Start the server.
+
+PERMAFROST (OPTIONAL)
+Use the two files from with-permafrost/ in step 4 instead. Once permafrost
+has converted snow and ice in a world, do not switch back to the default
+files without reverting first: run /scriptevent classic_permafrost:revert,
+visit the converted areas, then stop the server and swap the files.
+
+PACK ORDER
+The json files list packs highest priority first. The entity enforcer (and
+permafrost) resource packs must stay above the block/item filter, and the
+classic ores/planks behavior pack above other packs that change recipes.
+
+NOT A DEDICATED SERVER?
+For a Realm or a local world, use betamods-<version>-all.mcaddon from the
+same release instead: open it on the device to import every pack, then
+enable them in the world's settings in the order above.
