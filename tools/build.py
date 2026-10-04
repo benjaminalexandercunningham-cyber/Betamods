@@ -13,8 +13,6 @@ Output names come from the directory name and the manifest version.
 
 --release additionally writes, named after the given tag:
     betamods-<tag>-all.mcaddon  every pack in one file, for one-tap import
-    betamods-<tag>-server.zip   unpacked packs plus world_*_packs.json for a
-                                Bedrock Dedicated Server or hosting panel
     SHA256SUMS.txt              checksums of everything in dist/
 """
 import hashlib
@@ -31,14 +29,6 @@ SKIP = {".DS_Store", "Thumbs.db", "desktop.ini"}
 UUID_RE = re.compile(r"^[0-9a-f]{8}(-[0-9a-f]{4}){3}-[0-9a-f]{12}$")
 # Fixed timestamp so rebuilding unchanged sources gives identical archives.
 ZIP_DATE = (2020, 1, 1, 0, 0, 0)
-
-# Load order written to the server bundle's world_*_packs.json, highest
-# priority first. The entity enforcer and permafrost resource packs must sit
-# above the block/item filter, and the ores/planks recipes above other packs.
-BEHAVIOR_ORDER = ["classic-ores-planks", "inventory-enforcer", "entity-enforcer", "permafrost"]
-RESOURCE_ORDER = ["entity-enforcer", "permafrost", "block-item-filter"]
-# Shipped in the bundles but left out of the default world_*_packs.json.
-OPTIONAL = {"permafrost"}
 
 
 def manifests(pack_dir):
@@ -154,36 +144,12 @@ def units():
 
 def build_release(tag):
     all_units = list(units())
-    unordered = [
-        f"{name} ({kind})" for name, kind, _, _ in all_units
-        if name not in (BEHAVIOR_ORDER if kind == "behavior" else RESOURCE_ORDER)
-    ]
-    if unordered:
-        sys.exit(f"add to BEHAVIOR_ORDER/RESOURCE_ORDER in tools/build.py: {', '.join(unordered)}")
 
     # One file holding every pack; Minecraft imports each top-level folder as a pack.
     entries = []
     for name, kind, src, _ in all_units:
         entries.extend(files(src, f"betamods-{name}-{'bp' if kind == 'behavior' else 'rp'}/"))
     write_zip(DIST / f"betamods-{tag}-all.mcaddon", entries)
-
-    # Server layout: drop-in behavior_packs/ and resource_packs/ folders plus
-    # the world_*_packs.json files that switch the packs on for a world.
-    entries = [("SERVER_SETUP.txt", (ROOT / "tools" / "SERVER_SETUP.txt").read_bytes())]
-    for kind, order in (("behavior", BEHAVIOR_ORDER), ("resource", RESOURCE_ORDER)):
-        by_name = {n: (src, header) for n, k, src, header in all_units if k == kind}
-        enabled = []
-        for name in order:
-            src, header = by_name[name]
-            entries.extend(files(src, f"{kind}_packs/betamods-{name}/"))
-            enabled.append((name, {"pack_id": header["uuid"], "version": header["version"]}))
-        for filename, include_optional in (
-            (f"world_{kind}_packs.json", False),
-            (f"with-permafrost/world_{kind}_packs.json", True),
-        ):
-            packs = [e for n, e in enabled if include_optional or n not in OPTIONAL]
-            entries.append((filename, (json.dumps(packs, indent=2) + "\n").encode()))
-    write_zip(DIST / f"betamods-{tag}-server.zip", entries)
 
     sums = DIST / "SHA256SUMS.txt"
     lines = [
