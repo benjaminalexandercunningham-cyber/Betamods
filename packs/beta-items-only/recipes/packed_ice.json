@@ -17,11 +17,9 @@
         "item": "minecraft:ice"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:ice"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:packed_ice",
       "count": 1

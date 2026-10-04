@@ -20,11 +20,9 @@
         "item": "minecraft:cobblestone"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:redstone"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:dropper",
       "data": 3

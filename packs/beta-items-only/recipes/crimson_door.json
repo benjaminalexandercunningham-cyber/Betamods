@@ -18,11 +18,9 @@
         "item": "minecraft:crimson_planks"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:crimson_planks"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:crimson_door",
       "count": 3

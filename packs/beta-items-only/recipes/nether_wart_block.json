@@ -17,11 +17,9 @@
         "item": "minecraft:nether_wart"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:nether_wart"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:nether_wart_block"
     }

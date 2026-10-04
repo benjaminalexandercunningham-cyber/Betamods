@@ -17,11 +17,9 @@
         "item": "minecraft:stripped_jungle_log"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:stripped_jungle_log"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:stripped_jungle_wood",
       "count": 3

@@ -23,16 +23,9 @@
         "data": 10
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:carpet",
-        "data": 0
-      },
-      {
-        "item": "minecraft:dye",
-        "data": 10
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:carpet",
       "data": 5,

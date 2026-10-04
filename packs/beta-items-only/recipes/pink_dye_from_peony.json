@@ -13,11 +13,9 @@
         "item": "minecraft:peony"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:peony"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:pink_dye",
       "count": 2

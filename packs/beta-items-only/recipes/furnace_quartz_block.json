@@ -4,12 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_quartz_block"
     },
-    "unlock": [
-      {
-        "item": "minecraft:quartz_block",
-        "data": 0
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

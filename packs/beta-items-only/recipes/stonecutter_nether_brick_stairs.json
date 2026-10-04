@@ -14,11 +14,9 @@
         "data": 0
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:nether_brick"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:nether_brick_stairs",
       "data": 0,

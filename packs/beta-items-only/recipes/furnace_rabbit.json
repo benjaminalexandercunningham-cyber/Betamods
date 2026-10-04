@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_rabbit"
     },
-    "unlock": [
-      {
-        "item": "minecraft:rabbit"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

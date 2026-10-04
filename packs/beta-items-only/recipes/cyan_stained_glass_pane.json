@@ -17,11 +17,9 @@
         "item": "minecraft:cyan_stained_glass"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:cyan_stained_glass"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:cyan_stained_glass_pane",
       "count": 16

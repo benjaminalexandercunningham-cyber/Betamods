@@ -13,11 +13,9 @@
         "item": "minecraft:smooth_quartz"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:smooth_quartz"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:smooth_quartz_slab",
       "count": 2

@@ -13,11 +13,9 @@
         "item": "minecraft:cornflower"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:cornflower"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:dye",
       "data": 18

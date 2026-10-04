@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_copper_chestplate"
     },
-    "unlock": [
-      {
-        "item": "minecraft:copper_chestplate"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

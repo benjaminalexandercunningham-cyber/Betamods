@@ -13,11 +13,9 @@
         "item": "minecraft:polished_tuff"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:polished_tuff"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:tuff_bricks",
       "count": 1

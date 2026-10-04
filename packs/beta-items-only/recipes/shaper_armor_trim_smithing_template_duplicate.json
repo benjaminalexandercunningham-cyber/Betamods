@@ -23,11 +23,9 @@
         "item": "minecraft:hardened_clay"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:shaper_armor_trim_smithing_template"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:shaper_armor_trim_smithing_template",
       "count": 2

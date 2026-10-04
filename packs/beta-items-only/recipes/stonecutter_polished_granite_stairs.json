@@ -13,11 +13,9 @@
         "item": "minecraft:granite"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:granite"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:polished_granite_stairs",
       "data": 0,

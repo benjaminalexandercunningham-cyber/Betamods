@@ -16,11 +16,9 @@
         "item": "minecraft:nether_brick_slab"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:nether_brick_slab"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:chiseled_nether_bricks"
     }

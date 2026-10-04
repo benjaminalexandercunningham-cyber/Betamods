@@ -17,11 +17,9 @@
         "item": "minecraft:melon"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:melon"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:melon_block"
     }

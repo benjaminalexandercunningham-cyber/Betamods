@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_cracked_nether_bricks"
     },
-    "unlock": [
-      {
-        "item": "minecraft:nether_brick"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

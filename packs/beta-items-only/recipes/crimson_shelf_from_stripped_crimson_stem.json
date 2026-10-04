@@ -17,11 +17,9 @@
         "item": "minecraft:stripped_crimson_stem"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:stripped_crimson_stem"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:crimson_shelf",
       "count": 6

@@ -20,11 +20,9 @@
         "item": "minecraft:glowstone"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:crying_obsidian"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:respawn_anchor",
       "count": 1

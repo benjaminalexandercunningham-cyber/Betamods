@@ -13,11 +13,9 @@
         "item": "minecraft:weathered_copper"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:weathered_copper"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:weathered_cut_copper",
       "count": 4

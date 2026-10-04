@@ -21,11 +21,9 @@
         "item": "minecraft:lime_dye"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:hardened_clay"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:lime_terracotta",
       "count": 8

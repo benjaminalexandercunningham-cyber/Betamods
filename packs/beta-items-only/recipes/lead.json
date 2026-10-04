@@ -17,11 +17,9 @@
         "item": "minecraft:string"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:string"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:lead",
       "count": 2

@@ -20,11 +20,9 @@
         "item": "minecraft:iron_nugget"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:soul_torch"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:soul_lantern"
     }

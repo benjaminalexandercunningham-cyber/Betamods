@@ -13,11 +13,9 @@
         "item": "minecraft:diorite"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:diorite"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:diorite_slab",
       "count": 2

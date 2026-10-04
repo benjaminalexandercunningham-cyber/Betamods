@@ -13,11 +13,9 @@
         "item": "minecraft:green_concrete"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:green_concrete"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:green_concrete_slab",
       "count": 2

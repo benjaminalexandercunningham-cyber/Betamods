@@ -23,11 +23,9 @@
         "item": "minecraft:prismarine"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:tide_armor_trim_smithing_template"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:tide_armor_trim_smithing_template",
       "count": 2

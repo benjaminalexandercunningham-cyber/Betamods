@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_ancient_debris"
     },
-    "unlock": [
-      {
-        "item": "minecraft:ancient_debris"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

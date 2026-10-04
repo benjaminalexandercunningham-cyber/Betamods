@@ -17,12 +17,9 @@
         "data": 0
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:stone",
-        "data": 0
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:stone_bricks",
       "count": 4

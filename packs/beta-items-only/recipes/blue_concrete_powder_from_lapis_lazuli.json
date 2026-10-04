@@ -42,15 +42,9 @@
         "item": "minecraft:gravel"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:sand",
-        "data": 0
-      },
-      {
-        "item": "minecraft:gravel"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:blue_concrete_powder",
       "count": 8

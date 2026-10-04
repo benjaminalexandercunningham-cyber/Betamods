@@ -13,11 +13,9 @@
         "item": "minecraft:pitcher_plant"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:pitcher_plant"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:cyan_dye",
       "count": 2

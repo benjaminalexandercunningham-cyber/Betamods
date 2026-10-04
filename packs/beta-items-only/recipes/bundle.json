@@ -23,13 +23,8 @@
       "item": "minecraft:bundle"
     },
     "priority": 1,
-    "unlock": [
-      {
-        "item": "minecraft:leather"
-      },
-      {
-        "item": "minecraft:string"
-      }
-    ]
+    "unlock": {
+      "context": "None"
+    }
   }
 }

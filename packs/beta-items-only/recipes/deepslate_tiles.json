@@ -18,11 +18,9 @@
       "count": 4,
       "item": "minecraft:deepslate_tiles"
     },
-    "unlock": [
-      {
-        "item": "minecraft:deepslate_bricks"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ]

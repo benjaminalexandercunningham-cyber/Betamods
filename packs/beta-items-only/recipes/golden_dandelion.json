@@ -20,14 +20,9 @@
         "item": "minecraft:dandelion"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:gold_nugget"
-      },
-      {
-        "item": "minecraft:dandelion"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:golden_dandelion",
       "count": 1

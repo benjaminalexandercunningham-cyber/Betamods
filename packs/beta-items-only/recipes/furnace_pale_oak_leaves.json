@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_pale_oak_leaves"
     },
-    "unlock": [
-      {
-        "item": "minecraft:pale_oak_leaves"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

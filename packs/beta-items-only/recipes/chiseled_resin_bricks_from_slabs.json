@@ -16,11 +16,9 @@
         "item": "minecraft:resin_brick_slab"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:resin_brick"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:chiseled_resin_bricks"
     }

@@ -19,11 +19,9 @@
         "item": "minecraft:feather"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:book"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:writable_book"
     }

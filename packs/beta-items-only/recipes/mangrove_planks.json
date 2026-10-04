@@ -16,11 +16,9 @@
         "item": "minecraft:mangrove_log"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:mangrove_log"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:mangrove_planks",
       "count": 4

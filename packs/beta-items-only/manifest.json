@@ -4,21 +4,21 @@
     "name": "Beta 1.7.3 Items Only v1.0",
     "description": "Only Beta 1.7.3 blocks and items are obtainable: other items are deleted, uncraftable and absent from loot.",
     "uuid": "d6cd87e2-0441-4588-a23c-f4e7a8fee5ad",
-    "version": [1, 0, 0],
+    "version": [1, 0, 1],
     "min_engine_version": [1, 26, 50]
   },
   "modules": [
     {
       "type": "data",
       "uuid": "24d329e2-40bb-4793-bdef-d2cf9ac676be",
-      "version": [1, 0, 0]
+      "version": [1, 0, 1]
     },
     {
       "type": "script",
       "language": "javascript",
       "entry": "scripts/main.js",
       "uuid": "697944a2-a362-43f5-bf8a-5355b752d6d0",
-      "version": [1, 0, 0]
+      "version": [1, 0, 1]
     }
   ],
   "dependencies": [

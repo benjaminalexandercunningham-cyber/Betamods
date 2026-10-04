@@ -17,11 +17,9 @@
         "item": "minecraft:cherry_planks"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:cherry_planks"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:cherry_trapdoor",
       "count": 2

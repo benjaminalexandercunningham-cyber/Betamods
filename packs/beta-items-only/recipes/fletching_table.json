@@ -20,11 +20,9 @@
         "tag": "minecraft:planks"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:flint"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": [
       {
         "item": "minecraft:fletching_table"

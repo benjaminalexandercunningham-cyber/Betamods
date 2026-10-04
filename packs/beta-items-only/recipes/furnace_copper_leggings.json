@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_copper_leggings"
     },
-    "unlock": [
-      {
-        "item": "minecraft:copper_leggings"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

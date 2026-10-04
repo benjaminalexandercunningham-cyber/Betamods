@@ -13,11 +13,9 @@
         "item": "minecraft:waxed_copper"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:waxed_copper"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:waxed_cut_copper_stairs",
       "count": 4

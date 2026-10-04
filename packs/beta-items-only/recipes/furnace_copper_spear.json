@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_copper_spear"
     },
-    "unlock": [
-      {
-        "item": "minecraft:copper_spear"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

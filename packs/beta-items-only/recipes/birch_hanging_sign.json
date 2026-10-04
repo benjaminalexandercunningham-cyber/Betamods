@@ -21,11 +21,9 @@
         "item": "minecraft:chain"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:stripped_birch_log"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:birch_hanging_sign",
       "count": 6

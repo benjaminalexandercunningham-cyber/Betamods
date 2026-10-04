@@ -17,11 +17,9 @@
         "item": "minecraft:smooth_sandstone"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:smooth_sandstone"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:smooth_sandstone_stairs",
       "count": 4

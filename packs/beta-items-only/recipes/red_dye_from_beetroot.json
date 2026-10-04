@@ -13,11 +13,9 @@
         "item": "minecraft:beetroot"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:beetroot"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:dye",
       "data": 1

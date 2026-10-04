@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_copper_ore"
     },
-    "unlock": [
-      {
-        "item": "minecraft:copper_ore"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

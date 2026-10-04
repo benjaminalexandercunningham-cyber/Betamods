@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_log_mangrove"
     },
-    "unlock": [
-      {
-        "item": "minecraft:mangrove_log"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

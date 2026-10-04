@@ -16,11 +16,9 @@
         "item": "minecraft:glass"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:glass"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:glass_pane",
       "count": 16

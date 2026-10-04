@@ -16,11 +16,9 @@
         "item": "minecraft:appleenchanted"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:appleenchanted"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:banner_pattern",
       "data": 3

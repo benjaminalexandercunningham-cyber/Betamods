@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_smooth_basalt"
     },
-    "unlock": [
-      {
-        "item": "minecraft:basalt"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

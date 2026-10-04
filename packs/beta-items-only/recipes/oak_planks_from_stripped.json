@@ -16,11 +16,9 @@
         "item": "minecraft:stripped_oak_log"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:stripped_oak_log"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:oak_planks",
       "count": 4

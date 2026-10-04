@@ -17,11 +17,9 @@
         "item": "minecraft:stripped_bamboo_block"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:stripped_bamboo_block"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:bamboo_shelf",
       "count": 6

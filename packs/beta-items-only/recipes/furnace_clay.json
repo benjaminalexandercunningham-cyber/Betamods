@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_clay"
     },
-    "unlock": [
-      {
-        "item": "minecraft:clay"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

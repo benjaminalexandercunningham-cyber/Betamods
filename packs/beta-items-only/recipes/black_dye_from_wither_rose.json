@@ -13,11 +13,9 @@
         "item": "minecraft:wither_rose"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:wither_rose"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:dye",
       "data": 16

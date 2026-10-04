@@ -17,11 +17,9 @@
         "item": "minecraft:stripped_spruce_log"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:stripped_spruce_log"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:spruce_shelf",
       "count": 6

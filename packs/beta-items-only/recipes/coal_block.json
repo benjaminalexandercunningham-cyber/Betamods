@@ -18,12 +18,9 @@
         "data": 0
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:coal",
-        "data": 0
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:coal_block"
     }

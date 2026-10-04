@@ -21,11 +21,9 @@
         "item": "minecraft:chain"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:stripped_acacia_log"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:acacia_hanging_sign",
       "count": 6

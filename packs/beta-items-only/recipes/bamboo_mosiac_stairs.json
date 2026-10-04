@@ -18,11 +18,9 @@
         "item": "minecraft:bamboo_mosaic"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:bamboo_mosaic"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:bamboo_mosaic_stairs",
       "count": 4

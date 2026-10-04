@@ -15,11 +15,9 @@
         "item": "minecraft:wheat"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:mud"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:packed_mud"
     }

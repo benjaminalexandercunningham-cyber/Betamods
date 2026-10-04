@@ -16,11 +16,9 @@
         "item": "minecraft:gray_wool"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:gray_wool"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:gray_carpet",
       "count": 3

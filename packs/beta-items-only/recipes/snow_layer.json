@@ -15,11 +15,9 @@
         "item": "minecraft:snow"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:snow"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:snow_layer",
       "count": 6

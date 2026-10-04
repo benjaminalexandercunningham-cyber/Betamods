@@ -21,11 +21,9 @@
         "item": "minecraft:stick"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:mangrove_planks"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:mangrove_sign",
       "count": 3

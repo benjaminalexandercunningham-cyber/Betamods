@@ -20,11 +20,9 @@
         "tag": "minecraft:planks"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:iron_ingot"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": [
       {
         "item": "minecraft:smithing_table"

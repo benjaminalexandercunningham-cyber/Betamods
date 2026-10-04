@@ -14,11 +14,9 @@
         "item": "minecraft:oxeye_daisy"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:oxeye_daisy"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:dye",
       "data": 7

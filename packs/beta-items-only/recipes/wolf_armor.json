@@ -20,10 +20,8 @@
     "result": {
       "item": "minecraft:wolf_armor"
     },
-    "unlock": [
-      {
-        "item": "minecraft:armadillo_scute"
-      }
-    ]
+    "unlock": {
+      "context": "None"
+    }
   }
 }

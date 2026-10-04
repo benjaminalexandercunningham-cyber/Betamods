@@ -23,11 +23,9 @@
         "item": "minecraft:sandstone"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:dune_armor_trim_smithing_template"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:dune_armor_trim_smithing_template",
       "count": 2

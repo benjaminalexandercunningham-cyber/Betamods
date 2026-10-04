@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_sea_pickle"
     },
-    "unlock": [
-      {
-        "item": "minecraft:sea_pickle"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

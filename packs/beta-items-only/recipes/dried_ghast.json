@@ -20,11 +20,9 @@
         "item": "minecraft:soul_sand"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:ghast_tear"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:dried_ghast",
       "count": 1

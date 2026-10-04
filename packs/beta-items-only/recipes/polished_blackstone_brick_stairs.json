@@ -17,11 +17,9 @@
         "item": "minecraft:polished_blackstone_bricks"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:polished_blackstone_bricks"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:polished_blackstone_brick_stairs",
       "count": 4

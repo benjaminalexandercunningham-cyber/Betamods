@@ -16,11 +16,9 @@
         "item": "minecraft:purple_wool"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:purple_wool"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:purple_carpet",
       "count": 3

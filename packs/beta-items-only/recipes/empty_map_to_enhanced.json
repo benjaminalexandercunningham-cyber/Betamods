@@ -16,11 +16,9 @@
         "item": "minecraft:compass"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:compass"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:emptymap",
       "data": 2

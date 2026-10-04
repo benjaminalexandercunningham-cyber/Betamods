@@ -13,11 +13,9 @@
         "item": "minecraft:open_eyeblossom"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:open_eyeblossom"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:orange_dye"
     }

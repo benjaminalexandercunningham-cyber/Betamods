@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_redstone_ore"
     },
-    "unlock": [
-      {
-        "item": "minecraft:redstone_ore"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

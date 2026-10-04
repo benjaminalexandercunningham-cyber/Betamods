@@ -20,32 +20,9 @@
         "item": "minecraft:copper_ingot"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:copper_chest"
-      },
-      {
-        "item": "minecraft:exposed_copper_chest"
-      },
-      {
-        "item": "minecraft:weathered_copper_chest"
-      },
-      {
-        "item": "minecraft:oxidized_copper_chest"
-      },
-      {
-        "item": "minecraft:waxed_copper_chest"
-      },
-      {
-        "item": "minecraft:waxed_exposed_copper_chest"
-      },
-      {
-        "item": "minecraft:waxed_weathered_copper_chest"
-      },
-      {
-        "item": "minecraft:waxed_oxidized_copper_chest"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:copper_chest"
     }

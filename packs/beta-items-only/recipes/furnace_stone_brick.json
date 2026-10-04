@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_stone_brick"
     },
-    "unlock": [
-      {
-        "item": "minecraft:stone_bricks"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

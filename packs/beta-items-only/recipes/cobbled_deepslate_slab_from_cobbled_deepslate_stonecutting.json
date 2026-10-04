@@ -16,11 +16,9 @@
       "data": 0,
       "item": "minecraft:cobbled_deepslate_slab"
     },
-    "unlock": [
-      {
-        "item": "minecraft:cobbled_deepslate"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ]

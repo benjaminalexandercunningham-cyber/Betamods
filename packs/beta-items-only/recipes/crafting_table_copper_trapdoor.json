@@ -16,11 +16,9 @@
         "item": "minecraft:copper_ingot"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:copper_ingot"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:copper_trapdoor"
     }

@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_chainmail_helmet"
     },
-    "unlock": [
-      {
-        "item": "minecraft:chainmail_helmet"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

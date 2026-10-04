@@ -19,11 +19,9 @@
         "item": "minecraft:warped_fungus"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:warped_fungus"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:warped_fungus_on_a_stick"
     }

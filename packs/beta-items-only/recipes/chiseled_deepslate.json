@@ -13,11 +13,9 @@
       "#",
       "#"
     ],
-    "unlock": [
-      {
-        "item": "minecraft:cobbled_deepslate_slab"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "priority": 1,
     "result": {
       "item": "minecraft:chiseled_deepslate"

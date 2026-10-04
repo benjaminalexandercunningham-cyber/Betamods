@@ -20,11 +20,9 @@
         "item": "minecraft:prismarine_crystals"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:prismarine_crystals"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:sealantern"
     }

@@ -13,11 +13,9 @@
         "item": "minecraft:dark_prismarine"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:dark_prismarine"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:dark_prismarine_slab",
       "count": 2

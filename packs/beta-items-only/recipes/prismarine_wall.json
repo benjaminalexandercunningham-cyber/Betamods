@@ -17,12 +17,9 @@
         "data": 0
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:prismarine",
-        "data": 0
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:prismarine_wall",
       "count": 6

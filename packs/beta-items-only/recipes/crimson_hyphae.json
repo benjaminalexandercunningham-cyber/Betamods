@@ -17,11 +17,9 @@
         "item": "minecraft:crimson_stem"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:crimson_stem"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:crimson_hyphae",
       "count": 3

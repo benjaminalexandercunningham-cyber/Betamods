@@ -13,11 +13,9 @@
         "item": "minecraft:cinnabar"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:cinnabar"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:cinnabar_bricks",
       "count": 1

@@ -13,11 +13,9 @@
         "item": "minecraft:polished_sulfur"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:polished_sulfur"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:polished_sulfur_wall",
       "count": 1

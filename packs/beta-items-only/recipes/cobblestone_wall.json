@@ -16,11 +16,9 @@
         "item": "minecraft:cobblestone"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:cobblestone"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:cobblestone_wall",
       "count": 6

@@ -14,11 +14,9 @@
         "item": "minecraft:azure_bluet"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:azure_bluet"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:dye",
       "data": 7

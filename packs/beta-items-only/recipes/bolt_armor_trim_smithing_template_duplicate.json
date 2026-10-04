@@ -23,11 +23,9 @@
         "item": "minecraft:copper_block"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:bolt_armor_trim_smithing_template"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:bolt_armor_trim_smithing_template",
       "count": 2

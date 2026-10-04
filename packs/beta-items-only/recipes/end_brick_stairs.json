@@ -17,11 +17,9 @@
         "item": "minecraft:end_bricks"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:end_bricks"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:end_brick_stairs",
       "count": 4

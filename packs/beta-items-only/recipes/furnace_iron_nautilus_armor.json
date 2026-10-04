@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_iron_nautilus_armor"
     },
-    "unlock": [
-      {
-        "item": "minecraft:iron_nautilus_armor"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

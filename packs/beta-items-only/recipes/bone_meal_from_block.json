@@ -13,11 +13,9 @@
         "item": "minecraft:bone_block"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:bone_block"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:dye",
       "data": 15,

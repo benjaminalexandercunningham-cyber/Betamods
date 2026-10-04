@@ -23,11 +23,9 @@
         "item": "minecraft:netherrack"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:netherite_upgrade_smithing_template"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:netherite_upgrade_smithing_template",
       "count": 2

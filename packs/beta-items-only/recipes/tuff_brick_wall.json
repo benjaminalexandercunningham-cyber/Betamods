@@ -16,11 +16,9 @@
         "item": "minecraft:tuff_bricks"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:tuff_bricks"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:tuff_brick_wall",
       "count": 6

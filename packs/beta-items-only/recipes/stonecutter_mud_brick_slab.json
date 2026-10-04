@@ -13,11 +13,9 @@
         "item": "minecraft:mud_bricks"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:mud_bricks"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:mud_brick_slab",
       "count": 2

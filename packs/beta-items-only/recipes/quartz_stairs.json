@@ -18,12 +18,9 @@
         "data": 0
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:quartz_block",
-        "data": 0
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:quartz_stairs",
       "count": 4

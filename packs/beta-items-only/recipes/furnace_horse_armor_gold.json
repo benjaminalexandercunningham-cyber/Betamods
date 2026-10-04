@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_horse_armor_gold"
     },
-    "unlock": [
-      {
-        "item": "minecraft:horsearmorgold"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

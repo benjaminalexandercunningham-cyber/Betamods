@@ -16,11 +16,9 @@
         "count": 6
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:beetroot"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:beetroot_soup"
     }

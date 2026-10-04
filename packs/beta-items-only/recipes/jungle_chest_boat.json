@@ -16,12 +16,9 @@
         "data": 3
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:boat",
-        "data": 3
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:chest_boat",
       "data": 3

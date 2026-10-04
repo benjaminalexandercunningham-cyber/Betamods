@@ -23,11 +23,9 @@
         "tag": "minecraft:coals"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:stick"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:campfire"
     },

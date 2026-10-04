@@ -20,10 +20,8 @@
       "item": "minecraft:pale_moss_carpet",
       "count": 3
     },
-    "unlock": [
-      {
-        "item": "minecraft:pale_moss_block"
-      }
-    ]
+    "unlock": {
+      "context": "None"
+    }
   }
 }

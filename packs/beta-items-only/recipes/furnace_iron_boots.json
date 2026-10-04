@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_iron_boots"
     },
-    "unlock": [
-      {
-        "item": "minecraft:iron_boots"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

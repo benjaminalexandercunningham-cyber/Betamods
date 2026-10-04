@@ -13,11 +13,9 @@
         "item": "minecraft:tuff"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:tuff"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:chiseled_tuff_bricks",
       "count": 1

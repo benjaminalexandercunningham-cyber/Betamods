@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_deepslate_gold_ore"
     },
-    "unlock": [
-      {
-        "item": "minecraft:deepslate_gold_ore"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

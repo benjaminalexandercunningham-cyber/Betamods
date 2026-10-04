@@ -6,12 +6,9 @@
     },
     "input": "minecraft:cobbled_deepslate",
     "output": "minecraft:deepslate",
-    "unlock": [
-      {
-        "data": 0,
-        "item": "minecraft:cobbled_deepslate"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

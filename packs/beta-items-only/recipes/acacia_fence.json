@@ -19,11 +19,9 @@
         "item": "minecraft:acacia_planks"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:acacia_planks"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:acacia_fence",
       "count": 3

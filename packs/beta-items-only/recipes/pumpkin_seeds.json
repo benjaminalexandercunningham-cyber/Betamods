@@ -15,11 +15,9 @@
         "item": "minecraft:pumpkin"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:pumpkin"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:pumpkin_seeds",
       "count": 4

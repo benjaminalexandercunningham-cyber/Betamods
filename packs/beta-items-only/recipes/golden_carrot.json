@@ -20,11 +20,9 @@
         "item": "minecraft:carrot"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:gold_nugget"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:golden_carrot"
     }

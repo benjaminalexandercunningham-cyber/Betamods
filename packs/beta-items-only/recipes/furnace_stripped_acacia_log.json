@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_stripped_acacia_log"
     },
-    "unlock": [
-      {
-        "item": "minecraft:stripped_acacia_log"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

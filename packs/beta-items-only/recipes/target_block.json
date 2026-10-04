@@ -20,14 +20,9 @@
         "item": "minecraft:redstone"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:redstone"
-      },
-      {
-        "item": "minecraft:hay_block"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:target"
     }

@@ -41,15 +41,9 @@
         "item": "minecraft:gravel"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:gravel"
-      },
-      {
-        "item": "minecraft:sand",
-        "data": 0
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:orange_concrete_powder",
       "count": 8

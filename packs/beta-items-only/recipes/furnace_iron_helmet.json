@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_iron_helmet"
     },
-    "unlock": [
-      {
-        "item": "minecraft:iron_helmet"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

@@ -23,11 +23,9 @@
         "tag": "minecraft:planks"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:string"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "tripwire_hook",
       "count": 2

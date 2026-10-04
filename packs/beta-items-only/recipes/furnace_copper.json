@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_copper"
     },
-    "unlock": [
-      {
-        "item": "minecraft:raw_copper"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

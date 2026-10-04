@@ -4,12 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_red_sandstone"
     },
-    "unlock": [
-      {
-        "item": "minecraft:red_sandstone",
-        "data": 0
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_coal_ore"
     },
-    "unlock": [
-      {
-        "item": "minecraft:coal_ore"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

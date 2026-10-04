@@ -16,11 +16,9 @@
         "item": "minecraft:cherry_log"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:cherry_log"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:cherry_planks",
       "count": 4

@@ -17,11 +17,9 @@
         "item": "minecraft:pink_concrete"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:pink_concrete"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:pink_concrete_stairs",
       "count": 4

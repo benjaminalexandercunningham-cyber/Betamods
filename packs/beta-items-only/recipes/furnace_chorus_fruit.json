@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_chorus_fruit"
     },
-    "unlock": [
-      {
-        "item": "minecraft:chorus_fruit"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

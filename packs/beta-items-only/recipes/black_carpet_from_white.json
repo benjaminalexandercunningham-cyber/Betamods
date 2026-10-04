@@ -22,14 +22,9 @@
         "item": "minecraft:black_dye"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:white_carpet"
-      },
-      {
-        "item": "minecraft:black_dye"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:black_carpet",
       "count": 8

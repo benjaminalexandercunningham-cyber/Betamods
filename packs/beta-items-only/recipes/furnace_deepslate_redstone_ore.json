@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_deepslate_redstone_ore"
     },
-    "unlock": [
-      {
-        "item": "minecraft:deepslate_redstone_ore"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

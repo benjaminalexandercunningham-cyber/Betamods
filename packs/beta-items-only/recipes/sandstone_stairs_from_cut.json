@@ -17,11 +17,9 @@
         "item": "minecraft:cut_sandstone"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:cut_sandstone"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:sandstone_stairs",
       "count": 4

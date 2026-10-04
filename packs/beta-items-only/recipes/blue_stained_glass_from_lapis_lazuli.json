@@ -22,11 +22,9 @@
         "item": "minecraft:lapis_lazuli"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:glass"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:blue_stained_glass",
       "count": 8

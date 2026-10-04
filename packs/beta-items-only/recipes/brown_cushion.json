@@ -15,11 +15,9 @@
         "item": "minecraft:brown_wool_slab"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:brown_wool_slab"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:brown_cushion"
     }

@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_potato"
     },
-    "unlock": [
-      {
-        "item": "minecraft:potato"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

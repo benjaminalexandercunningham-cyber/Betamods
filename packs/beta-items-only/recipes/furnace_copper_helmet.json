@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_copper_helmet"
     },
-    "unlock": [
-      {
-        "item": "minecraft:copper_helmet"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

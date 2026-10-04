@@ -13,11 +13,9 @@
         "item": "minecraft:polished_cinnabar"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:polished_cinnabar"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:polished_cinnabar_slab",
       "count": 2

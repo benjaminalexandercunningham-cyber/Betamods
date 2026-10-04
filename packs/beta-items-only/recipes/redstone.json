@@ -15,11 +15,9 @@
         "item": "minecraft:redstone_block"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:redstone_block"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:redstone",
       "count": 9

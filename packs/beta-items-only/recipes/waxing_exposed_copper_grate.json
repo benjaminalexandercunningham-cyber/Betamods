@@ -15,11 +15,9 @@
         "item": "minecraft:honeycomb"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:exposed_copper_grate"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:waxed_exposed_copper_grate",
       "count": 1

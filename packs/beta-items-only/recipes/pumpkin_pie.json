@@ -18,14 +18,9 @@
         "tag": "minecraft:egg"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:pumpkin"
-      },
-      {
-        "item": "minecraft:carved_pumpkin"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:pumpkin_pie"
     }

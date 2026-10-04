@@ -15,11 +15,9 @@
         "item": "minecraft:raw_gold_block"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:raw_gold_block"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:raw_gold",
       "count": 9

@@ -18,11 +18,9 @@
         "item": "minecraft:gunpowder"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:blaze_powder"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:fire_charge",
       "count": 3

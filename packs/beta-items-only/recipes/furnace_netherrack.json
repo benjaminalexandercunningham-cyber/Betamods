@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_netherrack"
     },
-    "unlock": [
-      {
-        "item": "minecraft:netherrack"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

@@ -18,11 +18,9 @@
         "item": "minecraft:bamboo"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:bamboo"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:bamboo_block",
       "count": 1

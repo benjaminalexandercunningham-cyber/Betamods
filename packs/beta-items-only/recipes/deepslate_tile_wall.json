@@ -18,11 +18,9 @@
       "count": 6,
       "item": "minecraft:deepslate_tile_wall"
     },
-    "unlock": [
-      {
-        "item": "minecraft:deepslate_tiles"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ]

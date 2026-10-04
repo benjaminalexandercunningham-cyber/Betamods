@@ -19,11 +19,9 @@
         "item": "minecraft:blaze_rod"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:chorus_fruit_popped"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:end_rod",
       "count": 4

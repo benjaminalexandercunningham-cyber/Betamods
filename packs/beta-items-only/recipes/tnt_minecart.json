@@ -16,12 +16,9 @@
         "item": "minecraft:minecart"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:tnt",
-        "data": 0
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:tnt_minecart"
     }

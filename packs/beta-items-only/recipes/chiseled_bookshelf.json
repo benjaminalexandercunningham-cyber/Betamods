@@ -20,11 +20,9 @@
         "tag": "minecraft:wooden_slabs"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:book"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "chiseled_bookshelf",
       "count": 1

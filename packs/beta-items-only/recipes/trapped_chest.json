@@ -15,11 +15,9 @@
         "item": "minecraft:tripwire_hook"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:tripwire_hook"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:trapped_chest"
     }

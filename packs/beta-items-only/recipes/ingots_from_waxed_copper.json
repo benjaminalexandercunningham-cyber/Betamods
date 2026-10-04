@@ -15,11 +15,9 @@
         "item": "minecraft:waxed_copper"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:waxed_copper"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:copper_ingot",
       "count": 9

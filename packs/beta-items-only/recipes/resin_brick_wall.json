@@ -16,11 +16,9 @@
         "item": "minecraft:resin_bricks"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:resin_bricks"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:resin_brick_wall",
       "count": 6

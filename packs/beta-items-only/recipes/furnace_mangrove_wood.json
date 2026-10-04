@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_mangrove_wood"
     },
-    "unlock": [
-      {
-        "item": "minecraft:mangrove_wood"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

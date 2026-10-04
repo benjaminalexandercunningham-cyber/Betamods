@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_golden_leggings"
     },
-    "unlock": [
-      {
-        "item": "minecraft:golden_leggings"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

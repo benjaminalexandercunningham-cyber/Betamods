@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_copper_sword"
     },
-    "unlock": [
-      {
-        "item": "minecraft:copper_sword"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

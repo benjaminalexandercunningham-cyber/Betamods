@@ -16,11 +16,9 @@
         "item": "minecraft:pointed_dripstone"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:pointed_dripstone"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:dripstone_block",
       "count": 1

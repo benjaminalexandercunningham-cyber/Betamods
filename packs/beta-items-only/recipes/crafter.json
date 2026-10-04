@@ -26,11 +26,9 @@
         "item": "minecraft:crafting_table"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:dropper"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:crafter"
     }

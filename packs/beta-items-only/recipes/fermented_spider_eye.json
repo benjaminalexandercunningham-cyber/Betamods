@@ -18,11 +18,9 @@
         "item": "minecraft:sugar"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:spider_eye"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:fermented_spider_eye"
     }

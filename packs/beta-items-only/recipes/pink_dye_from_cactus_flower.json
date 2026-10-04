@@ -13,11 +13,9 @@
         "item": "minecraft:cactus_flower"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:cactus_flower"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:pink_dye"
     }

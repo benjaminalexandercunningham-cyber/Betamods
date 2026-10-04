@@ -12,11 +12,9 @@
         "item": "minecraft:breeze_rod"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:breeze_rod"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:wind_charge",
       "count": 4

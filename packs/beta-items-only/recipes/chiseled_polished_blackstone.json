@@ -16,11 +16,9 @@
         "item": "minecraft:polished_blackstone_slab"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:polished_blackstone_slab"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:chiseled_polished_blackstone"
     }
