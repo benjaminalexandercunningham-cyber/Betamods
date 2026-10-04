@@ -44,12 +44,11 @@ Every tagged release on the [Releases page](https://github.com/benjaminalexander
 
 | File | Use it for |
 | --- | --- |
-| `betamods-<tag>-server.zip` | A Bedrock Dedicated Server or hosting panel. Unpacked `behavior_packs/` and `resource_packs/` folders plus ready-made `world_behavior_packs.json` / `world_resource_packs.json`. Follow the `SERVER_SETUP.txt` inside. |
-| `betamods-<tag>-all.mcaddon` | A Realm or local world. Open it on the device (iPad, phone, PC) to import every pack at once, then enable them in world settings. |
+| `betamods-<tag>-all.mcaddon` | Updating the Realm. Open it on the device (iPad, phone, PC) to import every pack at once. See [docs/REALM_SETUP.md](docs/REALM_SETUP.md). |
 | `<pack>-v<version>.mcpack` / `.mcaddon` | Importing a single pack. |
 | `SHA256SUMS.txt` | Checksums of the files above. |
 
-The download links work in any browser, so a collaborator can grab the server zip on an iPad, unzip it in the Files app and upload the folders through the host's file manager.
+The download links work in any browser, so the Realm can be updated from an iPad with no computer involved.
 
 ### Cutting a release
 
@@ -71,7 +70,7 @@ python3 tools/build.py --release v1.0.0
 
 ## Install
 
-1. Back up your world, then import the files from a release (or from `dist/`) into Minecraft. For a dedicated server, use the server zip and its `SERVER_SETUP.txt` instead of these steps. Import permafrost only if you want its custom-block behavior.
+1. Back up your world, then import the files from a release (or from `dist/`) into Minecraft. For the Realm, follow [docs/REALM_SETUP.md](docs/REALM_SETUP.md). Import permafrost only if you want its custom-block behavior.
 2. Enable the inventory enforcer, entity enforcer and classic ores/planks behavior packs in world settings.
 3. Enable the block/item filter and entity enforcer resource packs. Put the entity enforcer resource pack **above** the filter.
 4. If using permafrost, enable both of its packs and put its resource pack above the filter too.
@@ -87,7 +86,6 @@ Keep permafrost installed while converted blocks exist. To revert, run `/scripte
 - **When you change a pack, bump its version** in `manifest.json` (header and every module). For the two add-ons, also bump the RP version and the matching dependency entry in the BP manifest; `--check` fails if they drift.
 - **Never change a UUID** of an existing pack. Minecraft treats a new UUID as a different pack and worlds lose their link to it.
 - Work on a branch and open a pull request; CI validates and builds on every PR.
-- When adding a pack, add it to `BEHAVIOR_ORDER` / `RESOURCE_ORDER` in [tools/build.py](tools/build.py) so the server bundle knows its load order.
 - Note the change in the pack's `README.txt` and in [docs/RELEASE_NOTES.md](docs/RELEASE_NOTES.md).
 
 Fast iteration: instead of re-importing an archive each time, copy or symlink a pack folder into Minecraft's `development_behavior_packs` / `development_resource_packs` folder and reload the world.
