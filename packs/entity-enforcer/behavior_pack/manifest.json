@@ -1,0 +1,54 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Beta Entity Enforcer BP v1.1 \u2014 No Babies",
+    "description": "Keeps Beta mobs, suppresses later entities and removes XP orbs without drops or death particles.",
+    "uuid": "d6673918-7146-4731-b5a1-2615a18b5bba",
+    "version": [
+      1,
+      1,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      90
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "08a5241d-5a56-4ea9-a4d4-87debae8ec4b",
+      "version": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/main.js",
+      "uuid": "03f82762-303d-483a-b083-4cfb15245e91",
+      "version": [
+        1,
+        1,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.0.0"
+    },
+    {
+      "uuid": "e3ba4352-a52d-4aa4-8883-371057ae38d9",
+      "version": [
+        1,
+        1,
+        0
+      ]
+    }
+  ]
+}

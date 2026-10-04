@@ -1,0 +1,46 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Classic Ore Drops & Oak Planks v1.0",
+    "description": "Iron/gold ore drop themselves; all vanilla wood-to-planks recipes yield oak.",
+    "uuid": "40d5c23b-5822-4e1c-abba-a088453d0cb6",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      90
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "ada3655b-3c2d-4408-9ef0-ed67827d955f",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/main.js",
+      "uuid": "c7b90df5-b6bf-4d82-9368-935e8b2a6771",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.0.0"
+    }
+  ]
+}

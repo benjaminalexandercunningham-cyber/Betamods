@@ -1,0 +1,11 @@
+* text=auto eol=lf
+
+*.png binary
+*.tga binary
+*.mcpack binary
+*.mcaddon binary
+
+# Large generated catalogues: keep them out of GitHub diffs and language stats
+packs/block-item-filter/blocks.json linguist-generated
+packs/*/coverage.json linguist-generated
+packs/*/recipe_coverage.json linguist-generated

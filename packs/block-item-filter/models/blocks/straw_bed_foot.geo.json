@@ -1,0 +1,164 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "minecraft:geometry.straw_bed_foot",
+        "texture_width": 16,
+        "texture_height": 16
+      },
+      "bones": [
+        {
+          "name": "base"
+        },
+        {
+          "name": "frills_03"
+        },
+        {
+          "name": "frills_04"
+        },
+        {
+          "name": "frills_05"
+        }
+      ],
+      "item_display_transforms": {
+        "firstperson_lefthand": {
+          "rotation": [
+            30.0,
+            340.0,
+            0.0
+          ],
+          "translation": [
+            0.0,
+            3.0,
+            0.0
+          ],
+          "scale": [
+            0.375,
+            0.375,
+            0.375
+          ]
+        },
+        "firstperson_righthand": {
+          "rotation": [
+            30.0,
+            340.0,
+            0.0
+          ],
+          "translation": [
+            0.0,
+            3.0,
+            0.0
+          ],
+          "scale": [
+            0.375,
+            0.375,
+            0.375
+          ]
+        },
+        "thirdperson_lefthand": {
+          "rotation": [
+            30.0,
+            340.0,
+            0.0
+          ],
+          "translation": [
+            0.0,
+            3.0,
+            -2.0
+          ],
+          "scale": [
+            0.23,
+            0.23,
+            0.23
+          ]
+        },
+        "thirdperson_righthand": {
+          "rotation": [
+            30.0,
+            340.0,
+            0.0
+          ],
+          "translation": [
+            0.0,
+            3.0,
+            -2.0
+          ],
+          "scale": [
+            0.23,
+            0.23,
+            0.23
+          ]
+        },
+        "head": {
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "translation": [
+            0.0,
+            10.0,
+            -8.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "gui": {
+          "rotation": [
+            30.0,
+            340.0,
+            0.0
+          ],
+          "translation": [
+            2.0,
+            3.0,
+            0.0
+          ],
+          "scale": [
+            0.5325,
+            0.5325,
+            0.5325
+          ]
+        },
+        "ground": {
+          "rotation": [
+            0.0,
+            180.0,
+            0.0
+          ],
+          "translation": [
+            0.0,
+            1.0,
+            2.0
+          ],
+          "scale": [
+            0.25,
+            0.25,
+            0.25
+          ]
+        },
+        "fixed": {
+          "rotation": [
+            270.0,
+            180.0,
+            0.0
+          ],
+          "translation": [
+            0.0,
+            4.0,
+            -2.0
+          ],
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ]
+        }
+      }
+    }
+  ]
+}

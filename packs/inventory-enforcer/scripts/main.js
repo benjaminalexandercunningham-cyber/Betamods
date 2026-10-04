@@ -1,0 +1,292 @@
+import { world, system, EquipmentSlot } from "@minecraft/server";
+
+// A whitelist deliberately blocks newly introduced and custom items too.
+const ALLOWED = new Set([
+  "minecraft:apple",
+  "minecraft:arrow",
+  "minecraft:bed",
+  "minecraft:bedrock",
+  "minecraft:birch_leaves",
+  "minecraft:birch_log",
+  "minecraft:birch_sapling",
+  "minecraft:black_wool",
+  "minecraft:blue_wool",
+  "minecraft:boat",
+  "minecraft:bone",
+  "minecraft:bone_meal",
+  "minecraft:book",
+  "minecraft:bookshelf",
+  "minecraft:bow",
+  "minecraft:bowl",
+  "minecraft:bread",
+  "minecraft:brick",
+  "minecraft:brick_block",
+  "minecraft:brown_mushroom",
+  "minecraft:brown_wool",
+  "minecraft:bucket",
+  "minecraft:cactus",
+  "minecraft:cake",
+  "minecraft:carved_pumpkin",
+  "minecraft:chainmail_boots",
+  "minecraft:chainmail_chestplate",
+  "minecraft:chainmail_helmet",
+  "minecraft:chainmail_leggings",
+  "minecraft:chest",
+  "minecraft:chest_minecart",
+  "minecraft:clay",
+  "minecraft:clay_ball",
+  "minecraft:clock",
+  "minecraft:coal",
+  "minecraft:coal_ore",
+  "minecraft:cobblestone",
+  "minecraft:cobblestone_slab",
+  "minecraft:cocoa_beans",
+  "minecraft:cod",
+  "minecraft:compass",
+  "minecraft:cooked_cod",
+  "minecraft:cooked_fish",
+  "minecraft:cooked_porkchop",
+  "minecraft:cookie",
+  "minecraft:crafting_table",
+  "minecraft:cyan_dye",
+  "minecraft:cyan_wool",
+  "minecraft:dandelion",
+  "minecraft:deadbush",
+  "minecraft:detector_rail",
+  "minecraft:diamond",
+  "minecraft:diamond_axe",
+  "minecraft:diamond_block",
+  "minecraft:diamond_boots",
+  "minecraft:diamond_chestplate",
+  "minecraft:diamond_helmet",
+  "minecraft:diamond_hoe",
+  "minecraft:diamond_leggings",
+  "minecraft:diamond_ore",
+  "minecraft:diamond_pickaxe",
+  "minecraft:diamond_shovel",
+  "minecraft:diamond_sword",
+  "minecraft:dirt",
+  "minecraft:dispenser",
+  "minecraft:egg",
+  "minecraft:farmland",
+  "minecraft:feather",
+  "minecraft:fern",
+  "minecraft:filled_map",
+  "minecraft:fish",
+  "minecraft:fishing_rod",
+  "minecraft:flint",
+  "minecraft:flint_and_steel",
+  "minecraft:furnace",
+  "minecraft:furnace_minecart",
+  "minecraft:glass",
+  "minecraft:glowstone",
+  "minecraft:glowstone_dust",
+  "minecraft:gold_axe",
+  "minecraft:gold_block",
+  "minecraft:gold_boots",
+  "minecraft:gold_chestplate",
+  "minecraft:gold_helmet",
+  "minecraft:gold_hoe",
+  "minecraft:gold_ingot",
+  "minecraft:gold_leggings",
+  "minecraft:gold_ore",
+  "minecraft:gold_pickaxe",
+  "minecraft:gold_shovel",
+  "minecraft:gold_sword",
+  "minecraft:golden_apple",
+  "minecraft:golden_axe",
+  "minecraft:golden_boots",
+  "minecraft:golden_chestplate",
+  "minecraft:golden_helmet",
+  "minecraft:golden_hoe",
+  "minecraft:golden_leggings",
+  "minecraft:golden_pickaxe",
+  "minecraft:golden_rail",
+  "minecraft:golden_shovel",
+  "minecraft:golden_sword",
+  "minecraft:grass_block",
+  "minecraft:gravel",
+  "minecraft:gray_dye",
+  "minecraft:gray_wool",
+  "minecraft:green_dye",
+  "minecraft:green_wool",
+  "minecraft:gunpowder",
+  "minecraft:ice",
+  "minecraft:ink_sac",
+  "minecraft:iron_axe",
+  "minecraft:iron_block",
+  "minecraft:iron_boots",
+  "minecraft:iron_chestplate",
+  "minecraft:iron_door",
+  "minecraft:iron_helmet",
+  "minecraft:iron_hoe",
+  "minecraft:iron_ingot",
+  "minecraft:iron_leggings",
+  "minecraft:iron_ore",
+  "minecraft:iron_pickaxe",
+  "minecraft:iron_shovel",
+  "minecraft:iron_sword",
+  "minecraft:jukebox",
+  "minecraft:ladder",
+  "minecraft:lapis_block",
+  "minecraft:lapis_lazuli",
+  "minecraft:lapis_ore",
+  "minecraft:lava_bucket",
+  "minecraft:leather",
+  "minecraft:leather_boots",
+  "minecraft:leather_chestplate",
+  "minecraft:leather_helmet",
+  "minecraft:leather_leggings",
+  "minecraft:lever",
+  "minecraft:light_blue_dye",
+  "minecraft:light_blue_wool",
+  "minecraft:light_gray_dye",
+  "minecraft:light_gray_wool",
+  "minecraft:lime_dye",
+  "minecraft:lime_wool",
+  "minecraft:lit_pumpkin",
+  "minecraft:magenta_dye",
+  "minecraft:magenta_wool",
+  "minecraft:map",
+  "minecraft:milk_bucket",
+  "minecraft:minecart",
+  "minecraft:mob_spawner",
+  "minecraft:mossy_cobblestone",
+  "minecraft:mushroom_stew",
+  "minecraft:music_disc_13",
+  "minecraft:music_disc_cat",
+  "minecraft:netherrack",
+  "minecraft:noteblock",
+  "minecraft:oak_boat",
+  "minecraft:oak_fence",
+  "minecraft:oak_leaves",
+  "minecraft:oak_log",
+  "minecraft:oak_planks",
+  "minecraft:oak_sapling",
+  "minecraft:oak_sign",
+  "minecraft:oak_stairs",
+  "minecraft:obsidian",
+  "minecraft:orange_dye",
+  "minecraft:orange_wool",
+  "minecraft:painting",
+  "minecraft:paper",
+  "minecraft:pink_dye",
+  "minecraft:pink_wool",
+  "minecraft:piston",
+  "minecraft:poppy",
+  "minecraft:porkchop",
+  "minecraft:pumpkin",
+  "minecraft:purple_dye",
+  "minecraft:purple_wool",
+  "minecraft:rail",
+  "minecraft:red_dye",
+  "minecraft:red_mushroom",
+  "minecraft:red_wool",
+  "minecraft:redstone",
+  "minecraft:redstone_ore",
+  "minecraft:redstone_torch",
+  "minecraft:reeds",
+  "minecraft:repeater",
+  "minecraft:saddle",
+  "minecraft:sand",
+  "minecraft:sandstone",
+  "minecraft:sandstone_slab",
+  "minecraft:shears",
+  "minecraft:short_grass",
+  "minecraft:sign",
+  "minecraft:slime_ball",
+  "minecraft:slimeball",
+  "minecraft:smooth_stone_slab",
+  "minecraft:snow",
+  "minecraft:snow_layer",
+  "minecraft:snowball",
+  "minecraft:soul_sand",
+  "minecraft:sponge",
+  "minecraft:spruce_leaves",
+  "minecraft:spruce_log",
+  "minecraft:spruce_sapling",
+  "minecraft:stick",
+  "minecraft:sticky_piston",
+  "minecraft:stone",
+  "minecraft:stone_axe",
+  "minecraft:stone_button",
+  "minecraft:stone_hoe",
+  "minecraft:stone_pickaxe",
+  "minecraft:stone_pressure_plate",
+  "minecraft:stone_shovel",
+  "minecraft:stone_stairs",
+  "minecraft:stone_sword",
+  "minecraft:string",
+  "minecraft:sugar",
+  "minecraft:sugar_cane",
+  "minecraft:tnt",
+  "minecraft:torch",
+  "minecraft:trapdoor",
+  "minecraft:water_bucket",
+  "minecraft:web",
+  "minecraft:wheat",
+  "minecraft:wheat_seeds",
+  "minecraft:white_wool",
+  "minecraft:wooden_axe",
+  "minecraft:wooden_door",
+  "minecraft:wooden_hoe",
+  "minecraft:wooden_pickaxe",
+  "minecraft:wooden_pressure_plate",
+  "minecraft:wooden_shovel",
+  "minecraft:wooden_sword",
+  "minecraft:yellow_dye",
+  "minecraft:yellow_wool"
+]);
+const EQUIPMENT = [EquipmentSlot.Head, EquipmentSlot.Chest, EquipmentSlot.Legs,
+  EquipmentSlot.Feet, EquipmentSlot.Mainhand, EquipmentSlot.Offhand];
+const isForbidden = item => !!item && !ALLOWED.has(item.typeId);
+let lastWarning = -1200;
+function warn(error) {
+  if (system.currentTick - lastWarning >= 1200) {
+    console.warn(`[Beta Inventory Enforcer] Cleanup will retry: ${error}`);
+    lastWarning = system.currentTick;
+  }
+}
+function cleanPlayer(player) {
+  let hasBed = false;
+  const inventory = player.getComponent("minecraft:inventory")?.container;
+  if (inventory) {
+    for (let slot = 0; slot < inventory.size; slot++) {
+      const item = inventory.getItem(slot);
+      if (isForbidden(item)) inventory.setItem(slot, undefined);
+      else if (item?.typeId === "minecraft:bed") hasBed = true;
+    }
+  }
+  const equipped = player.getComponent("minecraft:equippable");
+  if (equipped) {
+    for (const slot of EQUIPMENT) {
+      const item = equipped.getEquipment(slot);
+      if (isForbidden(item)) equipped.setEquipment(slot, undefined);
+      else if (item?.typeId === "minecraft:bed") hasBed = true;
+    }
+  }
+  const cursor = player.getComponent("minecraft:cursor_inventory");
+  if (cursor && isForbidden(cursor.item)) cursor.clear();
+  // Bed colors share one typeId; red is legacy data value 14.
+  // Use Bedrock's data-aware clear command rather than banning red beds too.
+  if (hasBed) {
+    for (let color = 0; color < 16; color++) {
+      if (color !== 14) {
+        // A color with no matching stacks may produce a command failure.
+        try { player.runCommand(`clear @s minecraft:bed ${color}`); } catch { /* no matching color */ }
+      }
+    }
+  }
+}
+system.runInterval(() => {
+  for (const player of world.getAllPlayers()) {
+    try { cleanPlayer(player); } catch (error) { warn(error); }
+  }
+}, 1);
+world.afterEvents.playerSpawn.subscribe(({ player }) => {
+  system.run(() => { try { cleanPlayer(player); } catch (error) { warn(error); } });
+});
+// Cancel use of a forbidden item while waiting for the next cleanup tick.
+world.beforeEvents.itemUse.subscribe(event => {
+  if (isForbidden(event.itemStack)) event.cancel = true;
+});

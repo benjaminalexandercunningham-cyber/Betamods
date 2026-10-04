@@ -1,0 +1,15 @@
+# Build output (python3 tools/build.py)
+dist/
+*.mcpack
+*.mcaddon
+*.mcworld
+*.zip
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+__pycache__/
+node_modules/

@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Beta Block & Item Filter v1.2",
+    "description": "Preserves chart-era blocks and items; blanks later textures. Opaque blocks may remain black/solid. See README.",
+    "uuid": "74b3480d-9d4c-4dba-94bb-fdd873e52426",
+    "version": [
+      1,
+      2,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "e7a17b99-6a66-4e42-b92f-27a32d1174ad",
+      "version": [
+        1,
+        2,
+        0
+      ]
+    }
+  ]
+}
