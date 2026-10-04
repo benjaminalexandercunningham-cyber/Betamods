@@ -1,0 +1,19 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "minecraft:furnace_kelp"
+    },
+    "unlock": [
+      {
+        "item": "minecraft:kelp"
+      }
+    ],
+    "tags": [
+      "deprecated"
+    ],
+    "input": "minecraft:kelp",
+    "output": "minecraft:dried_kelp",
+    "priority": 80
+  }
+}

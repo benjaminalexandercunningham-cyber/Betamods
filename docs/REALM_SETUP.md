@@ -11,7 +11,7 @@ In Minecraft: **Play → Realms → edit (pencil) on the Realm → Backups**, an
 ## 2. Import the packs
 
 1. On the release page, download `betamods-<version>-all.mcaddon`.
-2. Open the file with Minecraft. On iPad: tap the download, then **Share → Minecraft** (or open it from the Files app). Minecraft imports all seven packs.
+2. Open the file with Minecraft. On iPad: tap the download, then **Share → Minecraft** (or open it from the Files app). Minecraft imports all eight packs.
 
 ## 3. Apply them to the Realm
 
@@ -19,10 +19,11 @@ Open **Play → Realms → edit (pencil) → Edit World**.
 
 Under **Behavior Packs**, activate these, top to bottom:
 
-1. Classic Ore Drops & Oak Planks
-2. Beta Inventory Enforcer
-3. Beta Entity Enforcer BP
-4. Permafrost Snow & Ice BP (optional)
+1. Beta 1.7.3 Items Only
+2. Beta Entity Enforcer BP
+3. Permafrost Snow & Ice BP (optional)
+
+Beta 1.7.3 Items Only replaces Beta Inventory Enforcer and Classic Ore Drops & Oak Planks. Do not activate those two together with it. If Items Only misbehaves, deactivate it and activate those two instead (Classic Ore Drops on top).
 
 Under **Resource Packs**, activate these, top to bottom:
 

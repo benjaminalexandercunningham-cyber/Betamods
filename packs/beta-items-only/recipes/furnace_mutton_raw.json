@@ -1,0 +1,19 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "minecraft:furnace_mutton_raw"
+    },
+    "unlock": [
+      {
+        "item": "minecraft:muttonRaw"
+      }
+    ],
+    "tags": [
+      "deprecated"
+    ],
+    "input": "minecraft:muttonRaw",
+    "output": "minecraft:muttonCooked",
+    "priority": 0
+  }
+}

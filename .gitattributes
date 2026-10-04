@@ -9,3 +9,9 @@
 packs/block-item-filter/blocks.json linguist-generated
 packs/*/coverage.json linguist-generated
 packs/*/recipe_coverage.json linguist-generated
+
+# Output of tools/beta_items/generate.py
+packs/beta-items-only/recipes/** linguist-generated
+packs/beta-items-only/loot_tables/** linguist-generated
+packs/beta-items-only/spawn_rules/** linguist-generated
+packs/beta-items-only/scripts/allowlist.js linguist-generated

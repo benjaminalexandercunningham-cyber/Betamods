@@ -1,0 +1,20 @@
+{
+  "pools": [
+    {
+      "conditions": [
+        {
+          "condition": "has_mark_variant",
+          "value": -1
+        }
+      ],
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:mushroom_stew",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

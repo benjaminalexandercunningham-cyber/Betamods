@@ -9,6 +9,7 @@ Target: **Bedrock 1.21.90 or newer**, stable Script API (`@minecraft/server` 2.0
 | Directory | Type | Version | What it does |
 | --- | --- | --- | --- |
 | [packs/block-item-filter](packs/block-item-filter) | Resource pack | 1.2.0 | Blanks textures of post-Beta blocks and items; keeps snowy grass. |
+| [packs/beta-items-only](packs/beta-items-only) | Behavior pack | 1.0.0 | Makes only Beta 1.7.3 items obtainable: deletes other items, disables their recipes, cleans loot and mob spawns. Replaces the next two packs. Needs Bedrock 1.26.50+. |
 | [packs/inventory-enforcer](packs/inventory-enforcer) | Behavior pack | 1.1.0 | Deletes items outside the Beta allowlist from players every tick. |
 | [packs/entity-enforcer](packs/entity-enforcer) | Add-on (BP + RP) | 1.1.0 | Removes post-Beta entities, baby mobs and XP orbs without drops or death effects. |
 | [packs/classic-ores-planks](packs/classic-ores-planks) | Behavior pack | 1.0.0 | Iron and gold ore drop ore blocks; all plank recipes produce oak planks. |
@@ -88,6 +89,20 @@ Keep permafrost installed while converted blocks exist. To revert, run `/scripte
 - Work on a branch and open a pull request; CI validates and builds on every PR.
 - Note the change in the pack's `README.txt` and in [docs/RELEASE_NOTES.md](docs/RELEASE_NOTES.md).
 
+### Regenerating the Beta Items Only overrides
+
+Most of `packs/beta-items-only` is generated from Mojang's vanilla pack files. After a game update, or after editing `allowlist.json` or [tools/beta_items/rules.py](tools/beta_items/rules.py):
+
+```bash
+git clone --depth 1 https://github.com/Mojang/bedrock-samples ../bedrock-samples
+```
+
+```bash
+python3 tools/beta_items/generate.py --samples ../bedrock-samples
+```
+
+The generator stops with an error if a rule no longer matches the vanilla files, or if an item that was craftable in Beta would be left without a recipe. Background and open issues are in [docs/BETA_ITEMS_ONLY_REPORT.md](docs/BETA_ITEMS_ONLY_REPORT.md).
+
 Fast iteration: instead of re-importing an archive each time, copy or symlink a pack folder into Minecraft's `development_behavior_packs` / `development_resource_packs` folder and reload the world.
 
 ## Testing status
@@ -97,6 +112,7 @@ Packs have passed structural checks and simulated behavior tests only. **None of
 ## Known limits
 
 - **Block/item filter:** this removes textures; it does not guarantee invisibility. Opaque vanilla materials can render blanked blocks as solid black. Collision, lighting, names and inventory entries are unchanged.
+- **Beta items only:** recipes built into the game cannot be overridden, mobs from structures and spawners still appear, and items inside containers are untouched until picked up. See the report.
 - **Inventory enforcer:** does not touch placed blocks, container contents or dropped items. Non-red beds held only on the cursor are not detected until they land in the inventory.
 - **Entity enforcer:** removes entity types and babies; it does not restore Beta AI, spawn rates or models. Unknown future entities are removed by script but have no texture or spawn override.
 - **Classic ores/planks:** covers player mining of normal iron and gold ore only. Deepslate ore, Nether gold ore, explosions and commands are unchanged.

@@ -1,0 +1,135 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 5,
+        "max": 10.0
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1,
+              "add": false
+            }
+          ],
+          "name": "minecraft:compass"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1,
+              "add": false
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "min": 0.8,
+                "max": 1.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:diamond_hoe"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:leather"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:music_disc_13"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:music_disc_cat"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:diamond_leggings"
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:book"
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:iron_leggings"
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "minecraft:book"
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 10.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 15.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:bone"
+        },
+        {
+          "type": "item",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 6,
+                "max": 15.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:coal"
+        }
+      ]
+    }
+  ]
+}
