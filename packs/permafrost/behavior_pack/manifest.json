@@ -1,0 +1,54 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Permafrost Snow & Ice BP v2.0",
+    "description": "Custom snow and ice with no melting behavior; normal random tick speed.",
+    "uuid": "c5dc89e3-a0b4-4892-849d-f53badb6282f",
+    "version": [
+      2,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      90
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "b1f75d3e-aa90-4441-92be-a524998ec5a6",
+      "version": [
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/main.js",
+      "uuid": "446b6790-6826-4737-8477-b84110e8fdf3",
+      "version": [
+        2,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.0.0"
+    },
+    {
+      "uuid": "936b3fe5-4b19-48f1-834f-681afae801d6",
+      "version": [
+        2,
+        0,
+        0
+      ]
+    }
+  ]
+}

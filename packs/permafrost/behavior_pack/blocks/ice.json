@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.80",
+  "minecraft:block": {
+    "description": {
+      "identifier": "classic_permafrost:ice",
+      "menu_category": {
+        "category": "none"
+      }
+    },
+    "components": {
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "permafrost_ice",
+          "render_method": "blend"
+        }
+      },
+      "minecraft:collision_box": true,
+      "minecraft:selection_box": true,
+      "minecraft:friction": 0.02,
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.5
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.5
+      },
+      "minecraft:light_dampening": 1,
+      "minecraft:loot": "loot_tables/permafrost/ice.json"
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "minecraft:geometry.shelf_mushroom_small",
+        "texture_width": 16,
+        "texture_height": 16
+      },
+      "bones": [
+        {
+          "name": "mushroom_top"
+        },
+        {
+          "name": "mushroom_bottom"
+        }
+      ],
+      "item_display_transforms": {
+        "firstperson_lefthand": {
+          "rotation": [
+            0.0,
+            45.0,
+            0.0
+          ],
+          "translation": [
+            0.25,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ]
+        },
+        "firstperson_righthand": {
+          "rotation": [
+            0.0,
+            45.0,
+            0.0
+          ],
+          "translation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ]
+        },
+        "thirdperson_lefthand": {
+          "rotation": [
+            53.0,
+            0.0,
+            0.0
+          ],
+          "translation": [
+            0.0,
+            2.25,
+            0.25
+          ],
+          "scale": [
+            0.375,
+            0.375,
+            0.375
+          ]
+        },
+        "thirdperson_righthand": {
+          "rotation": [
+            53.0,
+            0.0,
+            0.0
+          ],
+          "translation": [
+            0.0,
+            2.25,
+            0.25
+          ],
+          "scale": [
+            0.375,
+            0.375,
+            0.375
+          ]
+        },
+        "head": {
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "translation": [
+            0.0,
+            -4.75,
+            -13.75
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "gui": {
+          "fit_to_frame": false,
+          "rotation": [
+            30.0,
+            225.0,
+            0.0
+          ],
+          "translation": [
+            3.25,
+            -3.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "ground": {
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "translation": [
+            0.0,
+            2.55,
+            -1.35
+          ],
+          "scale": [
+            0.3,
+            0.3,
+            0.3
+          ]
+        },
+        "fixed": {
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "translation": [
+            0.0,
+            -1.0,
+            -6.75
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    }
+  ]
+}

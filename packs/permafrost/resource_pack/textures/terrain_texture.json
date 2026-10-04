@@ -1,0 +1,12 @@
+{
+  "resource_pack_name": "Permafrost",
+  "texture_name": "atlas.terrain",
+  "texture_data": {
+    "permafrost_snow": {
+      "textures": "textures/blocks/permafrost_snow"
+    },
+    "permafrost_ice": {
+      "textures": "textures/blocks/permafrost_ice"
+    }
+  }
+}

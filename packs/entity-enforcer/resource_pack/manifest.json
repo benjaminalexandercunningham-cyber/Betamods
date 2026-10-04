@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Beta Entity Enforcer RP v1.1 \u2014 No Babies",
+    "description": "Invisible, silent render definitions for post-Beta entities and XP orbs.",
+    "uuid": "e3ba4352-a52d-4aa4-8883-371057ae38d9",
+    "version": [
+      1,
+      1,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      90
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "89f57660-3a4c-443c-8608-2a1ae5af18e7",
+      "version": [
+        1,
+        1,
+        0
+      ]
+    }
+  ]
+}

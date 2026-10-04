@@ -1,0 +1,46 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Beta Inventory Enforcer v1.1 \u2014 No Wooden Slabs",
+    "description": "Deletes non-chart items from all players every tick, including armor, offhand and cursor.",
+    "uuid": "fee19b28-03c6-4923-af42-2251290ec91d",
+    "version": [
+      1,
+      1,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      90
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "a549379a-c3ad-42f5-b8c2-8e83cdf80ca3",
+      "version": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/main.js",
+      "uuid": "b27fffcc-e8ef-4593-92c9-cb9c17b1902f",
+      "version": [
+        1,
+        1,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.0.0"
+    }
+  ]
+}

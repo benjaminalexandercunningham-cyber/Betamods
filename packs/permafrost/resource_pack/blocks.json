@@ -1,0 +1,13 @@
+{
+  "format_version": [
+    1,
+    1,
+    0
+  ],
+  "classic_permafrost:snow_layer": {
+    "sound": "snow"
+  },
+  "classic_permafrost:ice": {
+    "sound": "glass"
+  }
+}

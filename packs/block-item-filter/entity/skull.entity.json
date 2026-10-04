@@ -1,0 +1,28 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:skull",
+      "textures": {
+        "default": "textures/blocks/beta_filter_blank",
+        "steve": "textures/blocks/beta_filter_blank",
+        "skeleton": "textures/blocks/beta_filter_blank",
+        "wither": "textures/blocks/beta_filter_blank",
+        "zombie": "textures/blocks/beta_filter_blank",
+        "creeper": "textures/blocks/beta_filter_blank",
+        "dragon": "textures/blocks/beta_filter_blank",
+        "piglin": "textures/blocks/beta_filter_blank"
+      },
+      "geometry": {
+        "default": "geometry.beta_filter.empty",
+        "steve": "geometry.beta_filter.empty",
+        "skeleton": "geometry.beta_filter.empty",
+        "wither": "geometry.beta_filter.empty",
+        "zombie": "geometry.beta_filter.empty",
+        "creeper": "geometry.beta_filter.empty",
+        "dragon": "geometry.beta_filter.empty",
+        "piglin": "geometry.beta_filter.empty"
+      }
+    }
+  }
+}

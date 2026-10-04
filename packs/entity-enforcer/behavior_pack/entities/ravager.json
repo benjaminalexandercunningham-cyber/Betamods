@@ -1,0 +1,26 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "minecraft:ravager",
+      "is_spawnable": false,
+      "is_summonable": false
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "beta_blocked"
+        ]
+      },
+      "minecraft:instant_despawn": {},
+      "minecraft:experience_reward": {
+        "on_death": 0,
+        "on_bred": 0
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/beta_enforcer/empty.json"
+      }
+    },
+    "events": {}
+  }
+}
