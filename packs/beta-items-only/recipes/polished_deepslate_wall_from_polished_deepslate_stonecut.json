@@ -10,11 +10,9 @@
         "item": "minecraft:polished_deepslate"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:polished_deepslate"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "priority": 0,
     "result": {
       "count": 1,

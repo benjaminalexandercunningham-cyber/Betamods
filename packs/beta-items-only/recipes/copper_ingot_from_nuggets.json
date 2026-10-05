@@ -18,11 +18,9 @@
         "item": "minecraft:copper_nugget"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:copper_nugget"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:copper_ingot"
     }

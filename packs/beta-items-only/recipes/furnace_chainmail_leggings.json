@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_chainmail_leggings"
     },
-    "unlock": [
-      {
-        "item": "minecraft:chainmail_leggings"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

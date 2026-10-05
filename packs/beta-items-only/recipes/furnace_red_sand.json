@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_red_sand"
     },
-    "unlock": [
-      {
-        "item": "minecraft:red_sand"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

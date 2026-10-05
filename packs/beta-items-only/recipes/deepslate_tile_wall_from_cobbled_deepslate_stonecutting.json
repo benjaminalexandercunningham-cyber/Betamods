@@ -16,12 +16,9 @@
       "data": 0,
       "item": "minecraft:deepslate_tile_wall"
     },
-    "unlock": [
-      {
-        "data": 0,
-        "item": "minecraft:cobbled_deepslate"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ]

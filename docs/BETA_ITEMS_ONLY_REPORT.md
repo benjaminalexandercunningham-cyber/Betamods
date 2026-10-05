@@ -1,6 +1,6 @@
 # Beta 1.7.3 Items Only — report
 
-Pack: [packs/beta-items-only](../packs/beta-items-only), version 1.0.0.
+Pack: [packs/beta-items-only](../packs/beta-items-only), version 1.0.1.
 Generators: [tools/beta_items/generate.py](../tools/beta_items/generate.py) and [tools/beta_items/rules.py](../tools/beta_items/rules.py).
 
 ## Status
@@ -51,13 +51,13 @@ Decisions where the Beta item has no single modern equivalent:
 
 ## Script
 
-[scripts/main.js](../packs/beta-items-only/scripts/main.js) loads the allowlist into a `Set` once, removes item entities that are not on it when they spawn or load, and every 20 ticks clears non-allowlisted stacks from each player's inventory, armor, offhand and cursor.
+[scripts/main.js](../packs/beta-items-only/scripts/main.js) loads the allowlist into a `Set` once, removes item entities that are not on it when they spawn or load, and every 20 ticks clears non-allowlisted stacks from each player's inventory, armor, offhand and cursor. When a player interacts with a block that has an inventory (chest, furnace, hopper and so on), that inventory is cleared the same way before the screen opens.
 
 One addition beyond the brief: dropped `raw_iron` and `raw_gold` are swapped for `iron_ore` and `gold_ore`. Beta ores dropped the ore block; without the swap, iron and gold cannot be obtained at all.
 
 ## Recipes
 
-Disabling method: the override keeps the vanilla recipe body and identifier and sets `"tags": ["deprecated"]`. This is how Mojang's own files retire recipes. **Whether this also removes them from the recipe book has not been confirmed in game.**
+Disabling method: the override keeps the vanilla recipe body and identifier and sets `"tags": ["deprecated"]`. This is how Mojang's own files retire recipes. Since 1.0.1 a disabled recipe's `unlock` condition is also replaced with `{"context": "None"}`, as in vanilla's retired `cobweb_to_string`, so that it stops unlocking; 1.0.0 kept the vanilla unlock condition and disabled recipes such as iron nuggets and cherry boats were reported as still listed in the recipe book. **Whether 1.0.1 removes them has not been confirmed in game.** Recipes a player unlocked earlier are stored with the player; `/recipe take @a *` clears them.
 
 Of 1,851 live vanilla recipes (Mojang's files retire a further 30 themselves):
 
@@ -133,7 +133,7 @@ The Beta Entity Enforcer pack removes these at runtime and can be used alongside
 - **Recipes built into the game.** Some recipes are not shipped as files and so cannot be overridden: classic stone, cobblestone and sandstone slabs (still yield 6), oak trapdoor, wooden pressure plate, wool dyeing, and beds (craftable in all 16 colours). Any built-in recipe that turns Beta items into a post-Beta item, such as a wooden button, will still show in the recipe book; the crafted item is deleted within a second. The full list of built-in recipes can only be read from the game.
 - **Book** stays a shapeless recipe; Beta required a vertical column.
 - **Items that share an identifier** with a Beta item pass the allowlist: coloured beds, tipped arrows, enchanted versions of Beta tools.
-- **Containers and placed blocks.** Items inside chests and blocks already placed are untouched until an item reaches a player or drops.
+- **Containers and placed blocks.** Items inside a chest, furnace or other storage block stay there until a player opens it; hoppers can still move them meanwhile. Blocks already placed are untouched.
 - **The one-second window.** A forbidden item can be held, and in principle used, for up to a second.
 - **Raw-metal swap side effects.** Deepslate iron and gold ore also end up dropping the normal ore block, and Fortune would multiply it.
 - **Other post-Beta blocks drop nothing**, including deepslate, so mining below Y=0 yields only ores.

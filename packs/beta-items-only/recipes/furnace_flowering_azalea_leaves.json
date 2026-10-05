@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_flowering_azalea_leaves"
     },
-    "unlock": [
-      {
-        "item": "minecraft:azalea_leaves_flowered"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

@@ -16,11 +16,9 @@
         "item": "minecraft:diorite"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:diorite"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:polished_diorite",
       "count": 4

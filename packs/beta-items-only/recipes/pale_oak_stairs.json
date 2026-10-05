@@ -18,11 +18,9 @@
         "item": "minecraft:pale_oak_planks"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:pale_oak_planks"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:pale_oak_stairs",
       "count": 4

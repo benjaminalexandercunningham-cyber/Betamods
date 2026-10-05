@@ -17,11 +17,9 @@
         "item": "minecraft:stripped_mangrove_log"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:stripped_mangrove_log"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:mangrove_shelf",
       "count": 6

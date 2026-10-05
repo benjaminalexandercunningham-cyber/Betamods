@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_cracked_polished_blackstone_bricks"
     },
-    "unlock": [
-      {
-        "item": "minecraft:polished_blackstone_bricks"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

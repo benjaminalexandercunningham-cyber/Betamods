@@ -14,12 +14,9 @@
         "data": 0
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:purpur_block",
-        "data": 0
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:purpur_block",
       "data": 2,

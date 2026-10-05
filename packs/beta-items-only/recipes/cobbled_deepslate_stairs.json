@@ -19,11 +19,9 @@
       "count": 4,
       "item": "minecraft:cobbled_deepslate_stairs"
     },
-    "unlock": [
-      {
-        "item": "minecraft:cobbled_deepslate"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ]

@@ -15,11 +15,9 @@
         "item": "minecraft:magenta_wool_slab"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:magenta_wool_slab"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:magenta_cushion"
     }

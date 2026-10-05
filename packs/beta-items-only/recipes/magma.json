@@ -16,11 +16,9 @@
         "item": "minecraft:magma_cream"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:magma_cream"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:magma"
     }

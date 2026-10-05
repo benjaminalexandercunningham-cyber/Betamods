@@ -18,11 +18,9 @@
         "item": "minecraft:warped_planks"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:warped_planks"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:warped_door",
       "count": 3

@@ -19,11 +19,9 @@
         "tag": "minecraft:stone_crafting_materials"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:blaze_rod"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:brewing_stand"
     },

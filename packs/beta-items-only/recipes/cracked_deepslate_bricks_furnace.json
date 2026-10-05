@@ -6,11 +6,9 @@
     },
     "input": "minecraft:deepslate_bricks",
     "output": "minecraft:cracked_deepslate_bricks",
-    "unlock": [
-      {
-        "item": "minecraft:deepslate_bricks"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

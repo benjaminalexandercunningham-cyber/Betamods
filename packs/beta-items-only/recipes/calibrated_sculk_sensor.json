@@ -19,11 +19,9 @@
         "item": "minecraft:sculk_sensor"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:amethyst_shard"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:calibrated_sculk_sensor",
       "count": 1

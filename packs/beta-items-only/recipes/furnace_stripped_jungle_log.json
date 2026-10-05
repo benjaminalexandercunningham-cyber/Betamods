@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_stripped_jungle_log"
     },
-    "unlock": [
-      {
-        "item": "minecraft:stripped_jungle_log"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

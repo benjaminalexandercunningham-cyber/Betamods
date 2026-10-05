@@ -21,11 +21,9 @@
         "item": "minecraft:chain"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:stripped_bamboo_block"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:bamboo_hanging_sign",
       "count": 6

@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_iron"
     },
-    "unlock": [
-      {
-        "item": "minecraft:raw_iron"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

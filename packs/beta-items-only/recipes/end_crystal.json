@@ -23,11 +23,9 @@
         "item": "minecraft:glass"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:ender_eye"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:end_crystal"
     }

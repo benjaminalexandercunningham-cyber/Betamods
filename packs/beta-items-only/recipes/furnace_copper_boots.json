@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_copper_boots"
     },
-    "unlock": [
-      {
-        "item": "minecraft:copper_boots"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

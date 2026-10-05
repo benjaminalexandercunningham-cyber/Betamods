@@ -19,11 +19,9 @@
       "count": 4,
       "item": "minecraft:deepslate_brick_stairs"
     },
-    "unlock": [
-      {
-        "item": "minecraft:deepslate_bricks"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ]

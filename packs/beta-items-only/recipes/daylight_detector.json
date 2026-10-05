@@ -23,11 +23,9 @@
         "tag": "minecraft:wooden_slabs"
       }
     },
-    "unlock": [
-      {
-        "item": "quartz"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "daylight_detector",
       "count": 1

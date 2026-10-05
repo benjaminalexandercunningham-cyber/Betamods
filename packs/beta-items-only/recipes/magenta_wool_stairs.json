@@ -17,11 +17,9 @@
         "item": "minecraft:magenta_wool"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:magenta_wool"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:magenta_wool_stairs",
       "count": 4

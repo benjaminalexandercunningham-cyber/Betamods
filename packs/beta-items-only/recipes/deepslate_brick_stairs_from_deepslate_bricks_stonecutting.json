@@ -16,12 +16,9 @@
       "data": 0,
       "item": "minecraft:deepslate_brick_stairs"
     },
-    "unlock": [
-      {
-        "data": 0,
-        "item": "minecraft:deepslate_bricks"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ]

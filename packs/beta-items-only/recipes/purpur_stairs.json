@@ -17,11 +17,9 @@
         "item": "minecraft:purpur_block"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:purpur_block"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:purpur_stairs",
       "count": 4

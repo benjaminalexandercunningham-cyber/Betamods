@@ -26,17 +26,9 @@
         "item": "minecraft:tripwire_hook"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:tripwire_hook"
-      },
-      {
-        "item": "minecraft:string"
-      },
-      {
-        "item": "minecraft:iron_ingot"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:crossbow"
     }

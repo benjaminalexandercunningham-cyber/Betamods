@@ -16,11 +16,9 @@
         "item": "minecraft:resin_brick"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:resin_brick"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:resin_bricks"
     }

@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_stained_hardened_clay7"
     },
-    "unlock": [
-      {
-        "item": "minecraft:gray_terracotta"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

@@ -21,11 +21,9 @@
         "item": "minecraft:stick"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:acacia_planks"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:acacia_sign",
       "count": 3

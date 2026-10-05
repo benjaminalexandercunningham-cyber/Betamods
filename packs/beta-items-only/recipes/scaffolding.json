@@ -20,11 +20,9 @@
         "item": "minecraft:string"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:bamboo"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:scaffolding",
       "count": 6

@@ -19,11 +19,9 @@
         "item": "minecraft:iron_ingot"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:leather"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:saddle",
       "count": 1

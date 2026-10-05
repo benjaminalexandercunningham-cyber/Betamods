@@ -17,11 +17,9 @@
         "item": "minecraft:netherite_ingot"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:netherite_ingot"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:netherite_block"
     }

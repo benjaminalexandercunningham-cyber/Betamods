@@ -13,11 +13,9 @@
         "item": "minecraft:cyan_concrete"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:cyan_concrete"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:cyan_concrete_slab",
       "count": 2

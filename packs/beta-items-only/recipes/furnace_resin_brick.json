@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_resin_brick"
     },
-    "unlock": [
-      {
-        "item": "minecraft:resin_clump"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

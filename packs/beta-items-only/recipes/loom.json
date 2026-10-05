@@ -19,11 +19,9 @@
         "tag": "minecraft:planks"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:string"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "loom"
     },

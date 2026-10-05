@@ -17,11 +17,9 @@
         "item": "minecraft:slime_ball"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:slime_ball"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:slime"
     }

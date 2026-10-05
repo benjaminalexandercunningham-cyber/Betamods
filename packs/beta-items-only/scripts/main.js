@@ -37,16 +37,21 @@ function checkItemEntity(entity) {
   }
 }
 
+// Clears every stack that is not on the allowlist out of a container.
+function sweepContainer(container) {
+  for (let slot = 0; slot < container.size; slot++) {
+    const item = container.getItem(slot);
+    if (!item || ALLOWED.has(item.typeId)) continue;
+    const replacement = DROP_CONVERSIONS.get(item.typeId);
+    container.setItem(slot, replacement ? new ItemStack(replacement, item.amount) : undefined);
+  }
+}
+
 // Backstop for chest loot, trades, /give and anything else that puts an item
 // straight into a player's hands.
 function sweepPlayer(player) {
   const container = player.getComponent("minecraft:inventory")?.container;
-  if (container) {
-    for (let slot = 0; slot < container.size; slot++) {
-      const item = container.getItem(slot);
-      if (item && !ALLOWED.has(item.typeId)) container.setItem(slot, undefined);
-    }
-  }
+  if (container) sweepContainer(container);
   const equippable = player.getComponent("minecraft:equippable");
   if (equippable) {
     for (const slot of EQUIPMENT_SLOTS) {
@@ -57,6 +62,21 @@ function sweepPlayer(player) {
   const cursor = player.getComponent("minecraft:cursor_inventory");
   if (cursor?.item && !ALLOWED.has(cursor.item.typeId)) cursor.clear();
 }
+
+// Chests, furnaces, hoppers and other storage blocks are swept as a player
+// opens them, so items stored before the pack was added never reach the screen.
+world.beforeEvents.playerInteractWithBlock.subscribe(({ block }) => {
+  const { dimension, location } = block;
+  // Before events cannot modify the world; do the sweep right after.
+  system.run(() => {
+    try {
+      const container = dimension.getBlock(location)?.getComponent("minecraft:inventory")?.container;
+      if (container) sweepContainer(container);
+    } catch (error) {
+      console.warn(`[Beta Items Only] container sweep failed: ${error}`);
+    }
+  });
+});
 
 world.afterEvents.entitySpawn.subscribe(({ entity }) => checkItemEntity(entity));
 // Items already lying in a chunk when it loads do not fire entitySpawn.

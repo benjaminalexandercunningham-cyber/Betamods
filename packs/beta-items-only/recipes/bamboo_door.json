@@ -18,11 +18,9 @@
         "item": "minecraft:bamboo_planks"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:bamboo_planks"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:bamboo_door",
       "count": 3

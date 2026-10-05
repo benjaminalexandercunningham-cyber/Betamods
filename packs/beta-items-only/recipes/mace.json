@@ -19,14 +19,9 @@
       "*",
       "#"
     ],
-    "unlock": [
-      {
-        "item": "minecraft:breeze_rod"
-      },
-      {
-        "item": "minecraft:heavy_core"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:mace",
       "count": 1

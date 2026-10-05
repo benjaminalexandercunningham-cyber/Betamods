@@ -13,11 +13,9 @@
         "item": "minecraft:deepslate"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:deepslate"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:deepslate_brick_stairs",
       "count": 1

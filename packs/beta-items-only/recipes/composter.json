@@ -17,11 +17,9 @@
         "tag": "minecraft:wooden_slabs"
       }
     },
-    "unlock": [
-      {
-        "tag": "minecraft:wooden_slabs"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:composter"
     },

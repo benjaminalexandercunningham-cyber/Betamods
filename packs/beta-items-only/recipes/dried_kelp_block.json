@@ -17,11 +17,9 @@
         "item": "minecraft:dried_kelp"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:dried_kelp"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:dried_kelp_block"
     }

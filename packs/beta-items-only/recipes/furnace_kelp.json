@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_kelp"
     },
-    "unlock": [
-      {
-        "item": "minecraft:kelp"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

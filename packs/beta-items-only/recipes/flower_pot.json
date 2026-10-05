@@ -16,11 +16,9 @@
         "item": "minecraft:brick"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:brick"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:flower_pot"
     }

@@ -15,11 +15,9 @@
         "item": "minecraft:honeycomb"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:chiseled_copper"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:waxed_chiseled_copper",
       "count": 1

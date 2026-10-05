@@ -20,11 +20,9 @@
         "item": "minecraft:shulker_shell"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:shulker_shell"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:undyed_shulker_box"
     }

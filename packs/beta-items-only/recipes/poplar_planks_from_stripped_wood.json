@@ -16,11 +16,9 @@
         "item": "minecraft:stripped_poplar_wood"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:stripped_poplar_wood"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:poplar_planks",
       "count": 4

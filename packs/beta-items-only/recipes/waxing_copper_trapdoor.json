@@ -15,11 +15,9 @@
         "item": "minecraft:honeycomb"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:copper_trapdoor"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:waxed_copper_trapdoor",
       "count": 1

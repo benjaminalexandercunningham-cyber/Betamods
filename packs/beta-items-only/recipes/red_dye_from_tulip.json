@@ -13,11 +13,9 @@
         "item": "minecraft:red_tulip"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:red_tulip"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:dye",
       "data": 1

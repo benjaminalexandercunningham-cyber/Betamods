@@ -13,11 +13,9 @@
         "item": "minecraft:closed_eyeblossom"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:closed_eyeblossom"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:gray_dye"
     }

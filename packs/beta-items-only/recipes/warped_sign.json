@@ -21,11 +21,9 @@
         "item": "minecraft:stick"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:warped_planks"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:warped_sign",
       "count": 3

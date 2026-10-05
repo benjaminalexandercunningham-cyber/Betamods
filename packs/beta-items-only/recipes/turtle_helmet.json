@@ -16,11 +16,9 @@
         "item": "minecraft:turtle_shell_piece"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:turtle_shell_piece"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:turtle_helmet"
     }

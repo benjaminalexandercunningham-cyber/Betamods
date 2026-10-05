@@ -25,11 +25,9 @@
         "item": "minecraft:cooked_rabbit"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:cooked_rabbit"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:rabbit_stew"
     }

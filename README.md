@@ -9,7 +9,7 @@ Target: **Bedrock 1.21.90 or newer**, stable Script API (`@minecraft/server` 2.0
 | Directory | Type | Version | What it does |
 | --- | --- | --- | --- |
 | [packs/block-item-filter](packs/block-item-filter) | Resource pack | 1.2.0 | Blanks textures of post-Beta blocks and items; keeps snowy grass. |
-| [packs/beta-items-only](packs/beta-items-only) | Behavior pack | 1.0.0 | Makes only Beta 1.7.3 items obtainable: deletes other items, disables their recipes, cleans loot and mob spawns. Replaces the next two packs. Needs Bedrock 1.26.50+. |
+| [packs/beta-items-only](packs/beta-items-only) | Behavior pack | 1.0.1 | Makes only Beta 1.7.3 items obtainable: deletes other items, disables their recipes, cleans loot and mob spawns. Replaces the next two packs. Needs Bedrock 1.26.50+. |
 | [packs/inventory-enforcer](packs/inventory-enforcer) | Behavior pack | 1.1.0 | Deletes items outside the Beta allowlist from players every tick. |
 | [packs/entity-enforcer](packs/entity-enforcer) | Add-on (BP + RP) | 1.1.0 | Removes post-Beta entities, baby mobs and XP orbs without drops or death effects. |
 | [packs/classic-ores-planks](packs/classic-ores-planks) | Behavior pack | 1.0.0 | Iron and gold ore drop ore blocks; all plank recipes produce oak planks. |

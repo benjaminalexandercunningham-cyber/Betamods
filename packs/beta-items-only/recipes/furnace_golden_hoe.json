@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_golden_hoe"
     },
-    "unlock": [
-      {
-        "item": "minecraft:golden_hoe"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

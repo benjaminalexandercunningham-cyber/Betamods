@@ -15,11 +15,9 @@
         "item": "minecraft:slime_ball"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:blaze_powder"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:magma_cream"
     }

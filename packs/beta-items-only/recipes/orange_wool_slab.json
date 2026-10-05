@@ -15,11 +15,9 @@
         "item": "minecraft:orange_wool"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:orange_wool"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:orange_wool_slab",
       "count": 6

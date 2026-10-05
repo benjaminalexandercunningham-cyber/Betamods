@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_quartz_ore"
     },
-    "unlock": [
-      {
-        "item": "minecraft:quartz_ore"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

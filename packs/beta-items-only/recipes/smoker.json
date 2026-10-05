@@ -20,11 +20,9 @@
         "tag": "minecraft:logs"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:furnace"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:smoker"
     },

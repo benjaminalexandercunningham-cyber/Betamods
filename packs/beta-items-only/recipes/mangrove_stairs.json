@@ -18,11 +18,9 @@
         "item": "minecraft:mangrove_planks"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:mangrove_planks"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:mangrove_stairs",
       "count": 4

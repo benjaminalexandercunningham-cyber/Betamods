@@ -16,11 +16,9 @@
         "item": "minecraft:jungle_wood"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:jungle_wood"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:jungle_planks",
       "count": 4

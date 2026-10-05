@@ -13,11 +13,9 @@
         "item": "minecraft:end_stone"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:end_stone"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:end_stone_brick_wall",
       "count": 1

@@ -13,11 +13,9 @@
         "item": "minecraft:prismarine_bricks"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:prismarine_bricks"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:prismarine_brick_slab",
       "count": 2

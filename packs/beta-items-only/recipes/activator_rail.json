@@ -23,11 +23,9 @@
         "item": "minecraft:iron_ingot"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:rail"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:activator_rail",
       "count": 6

@@ -17,11 +17,9 @@
         "item": "minecraft:iron_ingot"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:water_bucket"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:cauldron"
     }

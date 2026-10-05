@@ -13,11 +13,9 @@
         "item": "minecraft:wildflowers"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:wildflowers"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:yellow_dye"
     }

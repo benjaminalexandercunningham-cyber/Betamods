@@ -16,11 +16,9 @@
         "item": "minecraft:waxed_weathered_cut_copper_slab"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:waxed_weathered_cut_copper_slab"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "count": 1,
       "item": "minecraft:waxed_weathered_chiseled_copper"

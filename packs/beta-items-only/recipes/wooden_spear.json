@@ -20,11 +20,9 @@
         "tag": "minecraft:planks"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:stick"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:wooden_spear"
     }

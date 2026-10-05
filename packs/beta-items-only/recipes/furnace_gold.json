@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_gold"
     },
-    "unlock": [
-      {
-        "item": "minecraft:raw_gold"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

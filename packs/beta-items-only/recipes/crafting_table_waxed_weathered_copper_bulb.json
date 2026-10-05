@@ -23,11 +23,9 @@
         "item": "minecraft:blaze_rod"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:waxed_weathered_copper"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:waxed_weathered_copper_bulb",
       "count": 4

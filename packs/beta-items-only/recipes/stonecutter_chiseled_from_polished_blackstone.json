@@ -13,11 +13,9 @@
         "item": "minecraft:polished_blackstone"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:polished_blackstone"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:chiseled_polished_blackstone",
       "count": 1

@@ -22,11 +22,9 @@
         "item": "minecraft:normal_stone_slab"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:normal_stone_slab"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:grindstone"
     },

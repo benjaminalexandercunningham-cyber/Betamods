@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_lapis_ore"
     },
-    "unlock": [
-      {
-        "item": "minecraft:lapis_ore"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

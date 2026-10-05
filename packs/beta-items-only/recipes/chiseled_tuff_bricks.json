@@ -16,11 +16,9 @@
       "#",
       "#"
     ],
-    "unlock": [
-      {
-        "item": "minecraft:tuff_brick_slab"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "priority": 1,
     "result": {
       "item": "minecraft:chiseled_tuff_bricks"

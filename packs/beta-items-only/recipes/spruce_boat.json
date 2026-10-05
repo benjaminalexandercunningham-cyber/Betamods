@@ -17,7 +17,7 @@
       }
     },
     "unlock": {
-      "context": "PlayerInWater"
+      "context": "None"
     },
     "result": {
       "item": "minecraft:spruce_boat"

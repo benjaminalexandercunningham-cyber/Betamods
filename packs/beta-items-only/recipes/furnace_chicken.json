@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_chicken"
     },
-    "unlock": [
-      {
-        "item": "minecraft:chicken"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

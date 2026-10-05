@@ -16,11 +16,9 @@
         "item": "minecraft:stripped_spruce_wood"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:stripped_spruce_wood"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:spruce_planks",
       "count": 4

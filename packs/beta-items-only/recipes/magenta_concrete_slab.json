@@ -15,11 +15,9 @@
         "item": "minecraft:magenta_concrete"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:magenta_concrete"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:magenta_concrete_slab",
       "count": 6

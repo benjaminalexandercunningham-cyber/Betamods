@@ -19,11 +19,9 @@
         "item": "minecraft:netherbrick"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:nether_wart"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:red_nether_brick"
     }

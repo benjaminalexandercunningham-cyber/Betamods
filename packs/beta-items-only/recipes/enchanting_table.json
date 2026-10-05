@@ -23,11 +23,9 @@
         "item": "minecraft:diamond"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:obsidian"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:enchanting_table"
     }

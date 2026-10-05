@@ -15,11 +15,9 @@
         "item": "minecraft:pale_oak_boat"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:pale_oak_boat"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:pale_oak_chest_boat"
     }

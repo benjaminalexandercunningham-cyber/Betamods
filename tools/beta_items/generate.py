@@ -188,6 +188,10 @@ def generate_recipes(ctx, coverage):
             continue
         new = copy.deepcopy(data)
         new[kind]["tags"] = [DISABLED_TAG]
+        # Otherwise the recipe still unlocks and stays listed in the recipe
+        # book. Vanilla's retired cobweb_to_string recipe does the same.
+        if "unlock" in new[kind]:
+            new[kind]["unlock"] = {"context": "None"}
         dump(out / path.name, new)
         disabled.setdefault(reason.split(":")[0], []).append(short)
 

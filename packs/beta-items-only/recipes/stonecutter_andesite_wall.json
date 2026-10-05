@@ -13,11 +13,9 @@
         "item": "minecraft:andesite"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:andesite"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:andesite_wall",
       "count": 1

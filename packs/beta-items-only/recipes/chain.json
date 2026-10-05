@@ -20,11 +20,9 @@
         "item": "iron_ingot"
       }
     },
-    "unlock": [
-      {
-        "item": "iron_ingot"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "chain",
       "count": 1

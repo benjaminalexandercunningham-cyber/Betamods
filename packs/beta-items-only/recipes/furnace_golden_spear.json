@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_golden_spear"
     },
-    "unlock": [
-      {
-        "item": "minecraft:golden_spear"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

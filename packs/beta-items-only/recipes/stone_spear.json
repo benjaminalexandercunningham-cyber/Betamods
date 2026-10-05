@@ -20,11 +20,9 @@
         "tag": "minecraft:stone_tool_materials"
       }
     },
-    "unlock": [
-      {
-        "tag": "minecraft:stone_tool_materials"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:stone_spear"
     },

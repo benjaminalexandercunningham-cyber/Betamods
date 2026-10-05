@@ -13,11 +13,9 @@
         "item": "minecraft:sulfur"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:sulfur"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:sulfur_brick_slab",
       "count": 2

@@ -23,11 +23,9 @@
         "item": "minecraft:furnace"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:smooth_stone"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:blast_furnace"
     }

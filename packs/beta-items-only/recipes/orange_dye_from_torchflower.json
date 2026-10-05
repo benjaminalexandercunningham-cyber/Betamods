@@ -13,11 +13,9 @@
         "item": "minecraft:torchflower"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:torchflower"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:dye",
       "data": 14

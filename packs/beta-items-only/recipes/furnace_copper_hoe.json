@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_copper_hoe"
     },
-    "unlock": [
-      {
-        "item": "minecraft:copper_hoe"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

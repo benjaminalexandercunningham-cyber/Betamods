@@ -14,12 +14,9 @@
         "data": 0
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:end_stone",
-        "data": 0
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:end_brick_stairs",
       "data": 0,

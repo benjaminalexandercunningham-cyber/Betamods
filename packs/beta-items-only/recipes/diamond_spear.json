@@ -20,11 +20,9 @@
         "item": "minecraft:diamond"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:diamond"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:diamond_spear"
     }

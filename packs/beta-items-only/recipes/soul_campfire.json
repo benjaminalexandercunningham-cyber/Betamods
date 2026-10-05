@@ -23,11 +23,9 @@
         "tag": "minecraft:logs"
       }
     },
-    "unlock": [
-      {
-        "tag": "minecraft:soul_fire_base_blocks"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "soul_campfire",
       "count": 1

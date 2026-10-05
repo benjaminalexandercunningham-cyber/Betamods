@@ -13,11 +13,9 @@
         "item": "minecraft:cut_red_sandstone"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:cut_red_sandstone"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:cut_red_sandstone_slab",
       "count": 2

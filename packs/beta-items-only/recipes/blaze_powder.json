@@ -12,11 +12,9 @@
         "item": "minecraft:blaze_rod"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:blaze_rod"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:blaze_powder",
       "count": 2

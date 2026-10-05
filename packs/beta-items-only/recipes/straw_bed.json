@@ -15,14 +15,9 @@
         "item": "minecraft:hay_block"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:hay_block"
-      },
-      {
-        "item": "minecraft:straw_bed"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:straw_bed",
       "count": 4

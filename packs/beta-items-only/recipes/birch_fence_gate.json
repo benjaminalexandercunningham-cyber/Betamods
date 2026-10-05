@@ -20,11 +20,9 @@
         "item": "minecraft:birch_planks"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:birch_planks"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:birch_fence_gate"
     }

@@ -17,11 +17,9 @@
         "item": "minecraft:pale_oak_log"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:pale_oak_log"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:pale_oak_wood",
       "count": 3

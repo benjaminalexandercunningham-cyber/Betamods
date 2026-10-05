@@ -16,11 +16,9 @@
         "item": "minecraft:stripped_birch_wood"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:stripped_birch_wood"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:birch_planks",
       "count": 4

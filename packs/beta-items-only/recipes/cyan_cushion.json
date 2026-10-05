@@ -15,11 +15,9 @@
         "item": "minecraft:cyan_wool_slab"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:cyan_wool_slab"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:cyan_cushion"
     }

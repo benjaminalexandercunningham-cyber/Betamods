@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_sponge"
     },
-    "unlock": [
-      {
-        "item": "minecraft:sponge"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

@@ -17,16 +17,9 @@
         "data": 19
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:dye",
-        "data": 16
-      },
-      {
-        "item": "minecraft:dye",
-        "data": 19
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:dye",
       "data": 8,

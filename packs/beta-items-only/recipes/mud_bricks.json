@@ -16,11 +16,9 @@
         "item": "minecraft:packed_mud"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:packed_mud"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:mud_bricks",
       "count": 4

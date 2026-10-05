@@ -20,11 +20,9 @@
         "item": "minecraft:bookshelf"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:book"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:lectern"
     },

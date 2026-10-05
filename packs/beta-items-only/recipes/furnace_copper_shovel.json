@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_copper_shovel"
     },
-    "unlock": [
-      {
-        "item": "minecraft:copper_shovel"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

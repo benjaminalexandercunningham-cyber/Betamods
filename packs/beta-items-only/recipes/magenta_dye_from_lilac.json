@@ -13,11 +13,9 @@
         "item": "minecraft:lilac"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:lilac"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:magenta_dye",
       "count": 2

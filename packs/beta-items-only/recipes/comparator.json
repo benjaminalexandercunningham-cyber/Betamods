@@ -24,11 +24,9 @@
         "data": 0
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:quartz"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:comparator"
     }

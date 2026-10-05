@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_chainmail_boots"
     },
-    "unlock": [
-      {
-        "item": "minecraft:chainmail_boots"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

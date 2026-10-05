@@ -17,11 +17,9 @@
         "item": "minecraft:polished_diorite"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:polished_diorite"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:polished_diorite_stairs",
       "count": 4

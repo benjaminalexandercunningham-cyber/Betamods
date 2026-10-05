@@ -17,15 +17,9 @@
         "data": 13
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:candle"
-      },
-      {
-        "item": "minecraft:dye",
-        "data": 13
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:magenta_candle"
     }

@@ -13,11 +13,9 @@
         "item": "minecraft:smooth_stone"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:smooth_stone"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:smooth_stone_slab",
       "count": 2

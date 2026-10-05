@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_emerald_ore"
     },
-    "unlock": [
-      {
-        "item": "minecraft:emerald_ore"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

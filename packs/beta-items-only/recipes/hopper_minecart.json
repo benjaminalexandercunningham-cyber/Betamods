@@ -15,11 +15,9 @@
         "item": "minecraft:minecart"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:minecart"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:hopper_minecart"
     }

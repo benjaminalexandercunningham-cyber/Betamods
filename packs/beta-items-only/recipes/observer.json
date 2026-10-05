@@ -23,11 +23,9 @@
         "item": "minecraft:cobblestone"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:quartz"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:observer"
     }

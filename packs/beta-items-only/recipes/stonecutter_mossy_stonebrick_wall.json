@@ -13,11 +13,9 @@
         "item": "minecraft:mossy_stone_bricks"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:mossy_stone_bricks"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:mossy_stone_brick_wall",
       "count": 1

@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_iron_leggings"
     },
-    "unlock": [
-      {
-        "item": "minecraft:iron_leggings"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

@@ -20,14 +20,9 @@
         "item": "minecraft:heart_of_the_sea"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:nautilus_shell"
-      },
-      {
-        "item": "minecraft:heart_of_the_sea"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:conduit"
     }

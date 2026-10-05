@@ -19,11 +19,9 @@
       "count": 4,
       "item": "minecraft:polished_deepslate_stairs"
     },
-    "unlock": [
-      {
-        "item": "minecraft:polished_deepslate"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ]

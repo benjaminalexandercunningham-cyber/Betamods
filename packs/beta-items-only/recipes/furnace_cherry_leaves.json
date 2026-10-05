@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_cherry_leaves"
     },
-    "unlock": [
-      {
-        "item": "minecraft:cherry_leaves"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

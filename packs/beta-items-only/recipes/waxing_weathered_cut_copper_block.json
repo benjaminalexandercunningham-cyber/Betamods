@@ -15,11 +15,9 @@
         "item": "minecraft:honeycomb"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:weathered_cut_copper"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:waxed_weathered_cut_copper",
       "count": 1

@@ -13,11 +13,9 @@
         "item": "minecraft:waxed_weathered_copper"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:waxed_weathered_copper"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:waxed_weathered_chiseled_copper",
       "count": 4

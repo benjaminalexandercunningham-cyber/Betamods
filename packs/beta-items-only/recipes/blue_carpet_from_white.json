@@ -21,14 +21,9 @@
         "item": "minecraft:blue_dye"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:white_carpet"
-      },
-      {
-        "item": "minecraft:blue_dye"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:blue_carpet",
       "count": 8

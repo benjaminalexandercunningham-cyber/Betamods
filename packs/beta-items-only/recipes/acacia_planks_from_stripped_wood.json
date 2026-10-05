@@ -16,11 +16,9 @@
         "item": "minecraft:stripped_acacia_wood"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:stripped_acacia_wood"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:acacia_planks",
       "count": 4

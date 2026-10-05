@@ -15,11 +15,9 @@
         "item": "minecraft:vine"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:vine"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:mossy_stone_bricks"
     }

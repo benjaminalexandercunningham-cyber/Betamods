@@ -15,11 +15,9 @@
         "item": "minecraft:resin_block"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:resin_block"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:resin_clump",
       "count": 9

@@ -16,11 +16,9 @@
         "item": "minecraft:warped_hyphae"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:warped_hyphae"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:warped_planks",
       "count": 4

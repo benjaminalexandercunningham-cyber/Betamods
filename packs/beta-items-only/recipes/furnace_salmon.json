@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_salmon"
     },
-    "unlock": [
-      {
-        "item": "minecraft:salmon"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

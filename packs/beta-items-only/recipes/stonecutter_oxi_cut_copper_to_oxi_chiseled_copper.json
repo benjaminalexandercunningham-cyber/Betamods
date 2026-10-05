@@ -13,11 +13,9 @@
         "item": "minecraft:oxidized_cut_copper"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:oxidized_cut_copper"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:oxidized_chiseled_copper",
       "count": 1

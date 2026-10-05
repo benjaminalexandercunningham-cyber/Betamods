@@ -17,11 +17,9 @@
         "count": 4
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:netherite_scrap"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:netherite_ingot",
       "data": 0,

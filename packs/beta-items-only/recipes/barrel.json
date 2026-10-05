@@ -20,14 +20,9 @@
         "tag": "minecraft:wooden_slabs"
       }
     },
-    "unlock": [
-      {
-        "tag": "minecraft:planks"
-      },
-      {
-        "tag": "minecraft:wooden_slabs"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:barrel"
     },

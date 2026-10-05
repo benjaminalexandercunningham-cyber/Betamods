@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_chainmail_chestplate"
     },
-    "unlock": [
-      {
-        "item": "minecraft:chainmail_chestplate"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

@@ -20,14 +20,9 @@
         "item": "minecraft:string"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:string"
-      },
-      {
-        "item": "minecraft:honeycomb"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:candle",
       "count": 1

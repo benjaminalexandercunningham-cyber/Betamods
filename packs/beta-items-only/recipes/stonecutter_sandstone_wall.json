@@ -14,12 +14,9 @@
         "data": 0
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:sandstone",
-        "data": 0
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:sandstone_wall",
       "count": 1

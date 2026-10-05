@@ -21,14 +21,9 @@
         "item": "minecraft:cyan_dye"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:white_carpet"
-      },
-      {
-        "item": "minecraft:cyan_dye"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:cyan_carpet",
       "count": 8

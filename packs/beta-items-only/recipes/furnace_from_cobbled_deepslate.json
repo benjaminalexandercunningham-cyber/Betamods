@@ -17,11 +17,9 @@
         "item": "minecraft:cobbled_deepslate"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:cobbled_deepslate"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:furnace"
     },

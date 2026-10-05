@@ -21,11 +21,9 @@
         "item": "minecraft:ink_sac"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:prismarine_shard"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:dark_prismarine"
     }

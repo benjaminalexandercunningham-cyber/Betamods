@@ -15,11 +15,9 @@
         "item": "minecraft:raw_copper_block"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:raw_copper_block"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:raw_copper",
       "count": 9

@@ -13,11 +13,9 @@
         "item": "minecraft:blue_concrete"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:blue_concrete"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:blue_concrete_slab",
       "count": 2

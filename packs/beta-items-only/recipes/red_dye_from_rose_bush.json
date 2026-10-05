@@ -13,11 +13,9 @@
         "item": "minecraft:rose_bush"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:rose_bush"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:red_dye",
       "count": 2

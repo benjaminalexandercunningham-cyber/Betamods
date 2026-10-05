@@ -17,11 +17,9 @@
         "item": "minecraft:disc_fragment_5"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:disc_fragment_5"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:record_5",
       "count": 1

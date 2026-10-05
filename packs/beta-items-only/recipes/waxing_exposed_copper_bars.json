@@ -15,11 +15,9 @@
         "item": "minecraft:honeycomb"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:copper_bars"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:waxed_exposed_copper_bars"
     }

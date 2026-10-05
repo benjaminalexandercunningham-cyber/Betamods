@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_mangrove_leaves"
     },
-    "unlock": [
-      {
-        "item": "minecraft:mangrove_leaves"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

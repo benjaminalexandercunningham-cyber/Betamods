@@ -15,11 +15,9 @@
         "item": "minecraft:brown_concrete"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:brown_concrete"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:brown_concrete_slab",
       "count": 6

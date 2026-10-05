@@ -20,11 +20,9 @@
         "item": "minecraft:compass"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:echo_shard"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:recovery_compass",
       "count": 1

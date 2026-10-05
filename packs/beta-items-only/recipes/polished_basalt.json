@@ -16,11 +16,9 @@
         "item": "minecraft:basalt"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:basalt"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:polished_basalt",
       "count": 4

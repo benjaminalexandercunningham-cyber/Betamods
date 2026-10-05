@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_mutton_raw"
     },
-    "unlock": [
-      {
-        "item": "minecraft:muttonRaw"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

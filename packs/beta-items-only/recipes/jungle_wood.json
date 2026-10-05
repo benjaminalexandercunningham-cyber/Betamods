@@ -17,11 +17,9 @@
         "item": "minecraft:jungle_log"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:jungle_log"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:jungle_wood",
       "count": 3

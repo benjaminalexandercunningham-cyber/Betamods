@@ -16,11 +16,9 @@
         "item": "minecraft:rabbit_hide"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:rabbit_hide"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:leather"
     }

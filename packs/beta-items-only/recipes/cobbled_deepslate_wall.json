@@ -18,11 +18,9 @@
       "count": 6,
       "item": "minecraft:cobbled_deepslate_wall"
     },
-    "unlock": [
-      {
-        "item": "minecraft:cobbled_deepslate"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ]

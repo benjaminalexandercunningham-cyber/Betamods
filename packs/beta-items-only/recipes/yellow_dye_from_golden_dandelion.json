@@ -14,12 +14,9 @@
         "data": 0
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:golden_dandelion",
-        "data": 0
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:dye",
       "data": 11

@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_copper_axe"
     },
-    "unlock": [
-      {
-        "item": "minecraft:copper_axe"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

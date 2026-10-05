@@ -17,11 +17,9 @@
         "item": "minecraft:stripped_poplar_log"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:stripped_poplar_log"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:poplar_shelf",
       "count": 6

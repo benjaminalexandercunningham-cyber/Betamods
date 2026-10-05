@@ -20,11 +20,9 @@
         "item": "minecraft:ender_eye"
       }
     },
-    "unlock": [
-      {
-        "item": "minecraft:ender_eye"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:ender_chest"
     }

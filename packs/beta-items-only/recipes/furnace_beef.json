@@ -4,11 +4,9 @@
     "description": {
       "identifier": "minecraft:furnace_beef"
     },
-    "unlock": [
-      {
-        "item": "minecraft:beef"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "tags": [
       "deprecated"
     ],

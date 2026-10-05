@@ -13,11 +13,9 @@
         "item": "minecraft:stone_bricks"
       }
     ],
-    "unlock": [
-      {
-        "item": "minecraft:stone_bricks"
-      }
-    ],
+    "unlock": {
+      "context": "None"
+    },
     "result": {
       "item": "minecraft:chiseled_stone_bricks",
       "count": 1
